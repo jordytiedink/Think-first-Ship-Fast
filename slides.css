@@ -259,5 +259,7 @@ body{
   .point .ico,.slide.title .mark{border-color:#ccc;background:#f4f4f4}
   .slide-notes{display:block;margin-top:16px;padding-top:12px;border-top:1px dashed #bbb;font-size:12.5px;line-height:1.5;color:#333}
   .slide-notes .nlabel{font-weight:700;color:#111;display:block;margin-bottom:4px}
+  .slide-notes ul{margin:0;padding-left:18px}
+  .slide-notes li{margin:0 0 3px}
 }
 .slide-notes{display:none}

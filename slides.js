@@ -33,18 +33,21 @@
 
   /* tekst uit de .slide-notes-alinea's van een slide */
   function domText(slide){
-    var ps = slide.querySelectorAll('.slide-notes p');
-    return Array.prototype.map.call(ps, function(p){ return p.textContent.trim(); })
-      .filter(Boolean).join('\n\n');
+    var items = slide.querySelectorAll('.slide-notes li');
+    if(!items.length) items = slide.querySelectorAll('.slide-notes p');
+    return Array.prototype.map.call(items, function(el){ return el.textContent.trim(); })
+      .filter(Boolean).join('\n');
   }
-  /* tekst terug naar alinea's in de .slide-notes (voor de print-handout) */
+  /* tekst terug naar bullets in de .slide-notes (voor de print-handout); elke regel = een bullet */
   function textToDom(slide, text){
     var box = slide.querySelector('.slide-notes');
     if(!box) return;
-    Array.prototype.slice.call(box.querySelectorAll('p')).forEach(function(p){ box.removeChild(p); });
-    text.split(/\n{2,}/).map(function(t){ return t.trim(); }).filter(Boolean).forEach(function(t){
-      var p = document.createElement('p'); p.textContent = t; box.appendChild(p);
-    });
+    Array.prototype.slice.call(box.querySelectorAll('ul, p')).forEach(function(el){ box.removeChild(el); });
+    var lines = text.split(/\n+/).map(function(t){ return t.trim(); }).filter(Boolean);
+    if(!lines.length) return;
+    var ul = document.createElement('ul');
+    lines.forEach(function(t){ var li = document.createElement('li'); li.textContent = t; ul.appendChild(li); });
+    box.appendChild(ul);
   }
 
   /* originele notities vastleggen vóór we opgeslagen versies toepassen */
