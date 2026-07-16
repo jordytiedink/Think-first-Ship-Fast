@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "triage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/Users/jordytiedink/Documents/Claude/Claude Code/Triage-model/serve.py"],
+      "port": 8765
+    }
+  ]
+}

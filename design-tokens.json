@@ -1,0 +1,4 @@
+{
+  "_note": "Dit project gebruikt een EIGEN donker thema, niet FortyTwo. De live tokens zijn de CSS-variabelen in styles.css (:root). Dit bestand is alleen een verwijzing; pas tokens aan in styles.css, niet hier.",
+  "_bron": "./styles.css (:root)"
+}

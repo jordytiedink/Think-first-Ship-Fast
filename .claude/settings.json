@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 serve.py)",
+      "Bash(python3 /Users/jordytiedink/Documents/Claude/Claude Code/Triage-model/serve.py)"
+    ]
+  }
+}
