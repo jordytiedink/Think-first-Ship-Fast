@@ -48,6 +48,7 @@
       <symbol id="ic-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
       <symbol id="ic-notes" viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="2"/><path d="M8.5 9h7M8.5 12.5h7M8.5 16h4"/></symbol>
       <symbol id="ic-expand" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+      <symbol id="ic-external" viewBox="0 0 24 24"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M19 13v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6"/></symbol>
       <symbol id="ic-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
     </defs>
   </svg>
@@ -605,6 +606,7 @@
     <button type="button" id="nextBtn" aria-label="Volgende slide" title="Volgende (→)"><svg class="ico"><use href="#ic-arrow-right"/></svg></button>
     <span class="div" aria-hidden="true"></span>
     <button type="button" id="notesBtn" aria-pressed="false" aria-label="Spreeknotities tonen" title="Notities (N)"><svg class="ico"><use href="#ic-notes"/></svg></button>
+    <button type="button" id="presentBtn" aria-label="Open notities in apart tabblad" title="Notities in apart tabblad (P)"><svg class="ico"><use href="#ic-external"/></svg></button>
     <button type="button" id="fsBtn" aria-label="Volledig scherm" title="Volledig scherm (F)"><svg class="ico"><use href="#ic-expand"/></svg></button>
   </nav>
 
@@ -618,6 +620,7 @@
         <button type="button" class="notes-close" id="notesClose" aria-label="Notities sluiten"><svg class="ico"><use href="#ic-close"/></svg></button>
       </div>
     </div>
+    <h2 id="notesTitle" class="notes-title"></h2>
     <div class="notes-body">
       <textarea id="notesEdit" class="notes-edit" spellcheck="true" aria-label="Spreeknotities bewerken" placeholder="Schrijf hier je spreeknotities…"></textarea>
     </div>

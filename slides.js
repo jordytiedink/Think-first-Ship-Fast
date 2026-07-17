@@ -15,7 +15,21 @@
   var notesBtn  = $('notesBtn');
   var notesEdit = $('notesEdit');
   var notesStatus = $('notesStatus');
+  var notesTitle  = $('notesTitle');
   var index     = 0;
+
+  /* presentatieweergave (apart tabblad) + synchronisatie tussen tabbladen */
+  var isNotesView = /[?&]view=notes/.test(location.search);
+  if(isNotesView) document.body.classList.add('notes-view');
+  var chan = ('BroadcastChannel' in window) ? new BroadcastChannel('tfsf-deck') : null;
+  var applyingRemote = false;
+  if(chan){
+    chan.onmessage = function(e){
+      if(e.data && typeof e.data.index === 'number' && e.data.index !== index){
+        applyingRemote = true; go(e.data.index); applyingRemote = false;
+      }
+    };
+  }
 
   /* ---------- speaker notes: opslag ---------- */
   var PREFIX = 'tfsf-note:';
@@ -112,17 +126,28 @@
     });
   }
 
+  /* notities die in een ander tabblad wijzigen live overnemen */
+  window.addEventListener('storage', function(e){
+    if(!e.key || e.key.indexOf(PREFIX) !== 0) return;
+    var i = KEYS.indexOf(e.key.slice(PREFIX.length));
+    if(i < 0) return;
+    if(e.newValue == null){ delete edits[i]; } else { edits[i] = e.newValue; }
+    textToDom(slides[i], noteText(i));
+    if(i === index && document.activeElement !== notesEdit) loadEditor();
+  });
+
   /* ---------- navigatie ---------- */
   function render(){
     slides.forEach(function(s, i){ s.classList.toggle('active', i === index); });
     if(count) count.innerHTML = '<b>' + (index + 1) + '</b> / ' + total;
     if(bar)   bar.style.width = ((index + 1) / total * 100) + '%';
     if(notesNum) notesNum.textContent = '· slide ' + (index + 1);
+    if(notesTitle){ var h = slides[index].querySelector('.slide-title') || slides[index].querySelector('h1'); notesTitle.textContent = h ? h.textContent : ''; }
     loadEditor();
     try{ history.replaceState(null, '', '#s' + (index + 1)); }catch(e){}
   }
 
-  function go(i){ index = Math.max(0, Math.min(total - 1, i)); render(); }
+  function go(i){ index = Math.max(0, Math.min(total - 1, i)); render(); if(chan && !applyingRemote){ try{ chan.postMessage({index:index}); }catch(e){} } }
   function next(){ if(index < total - 1) go(index + 1); }
   function prev(){ if(index > 0) go(index - 1); }
 
@@ -142,12 +167,18 @@
     }
   }
 
+  /* speaker notes in een apart tabblad openen (presentatieweergave) */
+  function openNotesTab(){
+    window.open(location.pathname + '?view=notes' + (location.hash || ''), 'tfsf-notes');
+  }
+
   /* knoppen */
   var b;
   if((b = $('prevBtn')))    b.addEventListener('click', prev);
   if((b = $('nextBtn')))    b.addEventListener('click', next);
   if((b = $('notesBtn')))   b.addEventListener('click', function(){ toggleNotes(); });
   if((b = $('notesClose'))) b.addEventListener('click', function(){ toggleNotes(false); });
+  if((b = $('presentBtn'))) b.addEventListener('click', openNotesTab);
   if((b = $('fsBtn')))      b.addEventListener('click', toggleFs);
 
   function inField(t){
@@ -174,6 +205,7 @@
       case 'Home': e.preventDefault(); go(0); break;
       case 'End':  e.preventDefault(); go(total - 1); break;
       case 'n': case 'N': case 's': case 'S': toggleNotes(); break;
+      case 'p': case 'P': if(!isNotesView) openNotesTab(); break;
       case 'f': case 'F': toggleFs(); break;
       default: break;
     }
@@ -181,6 +213,7 @@
 
   /* tikken op de linker- of rechterhelft van het scherm */
   document.addEventListener('click', function(e){
+    if(isNotesView) return;
     if(e.target.closest('.controls, .notes, .deck-back, a, button')) return;
     var half = window.innerWidth / 2;
     if(e.clientX > half) next(); else prev();
@@ -189,5 +222,6 @@
   /* startpositie uit de hash (#s3) */
   var m = /^#s(\d+)$/.exec(location.hash || '');
   if(m){ index = Math.max(0, Math.min(total - 1, parseInt(m[1], 10) - 1)); }
+  if(isNotesView) notes.classList.add('open');
   render();
 })();

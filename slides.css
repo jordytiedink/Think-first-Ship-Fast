@@ -218,6 +218,20 @@ body{
   color:var(--bodytext);font-family:inherit;font-size:16px;line-height:1.65;resize:none;outline:none;overflow:hidden}
 .notes-edit:focus{border-color:var(--line2);background:rgba(255,255,255,.05)}
 .notes-edit::placeholder{color:var(--faint)}
+.notes-title{display:none}
+
+/* ===== presentatieweergave (apart tabblad, ?view=notes) ===== */
+.notes-view{overflow:auto}
+.notes-view .bg-aura,.notes-view .veil,.notes-view .deck-back,.notes-view .deck-progress,.notes-view .stage{display:none}
+.notes-view #notesBtn,.notes-view #presentBtn,.notes-view #fsBtn,.notes-view #notesClose,.notes-view .controls .div{display:none}
+.notes-view .notes{position:static;transform:none;max-height:none;height:auto;display:block;
+  background:transparent;border-top:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+.notes-view .notes-head{max-width:900px;margin:0 auto;padding:64px 24px 0;border-bottom:none}
+.notes-view .notes-title{display:block;max-width:900px;margin:6px auto 0;padding:0 24px;
+  font-size:clamp(26px,3.4vw,40px);line-height:1.06;letter-spacing:-.02em;font-weight:800;color:var(--ink)}
+.notes-view .notes-body{max-width:900px;margin:0 auto;padding:18px 24px 110px}
+.notes-view .notes-edit{min-height:54vh;font-size:19px;line-height:1.7}
+.notes-view .controls{background:rgba(20,20,28,.7)}
 
 .kbd{font:600 11px/1 "Helvetica Neue",Arial,sans-serif;color:var(--faint);
   border:1px solid var(--line2);border-radius:5px;padding:3px 5px;background:rgba(255,255,255,.03)}
