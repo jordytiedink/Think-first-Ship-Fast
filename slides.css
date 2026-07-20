@@ -131,13 +131,15 @@ body{
   font-size:clamp(30px,4.3vw,54px);font-weight:800;letter-spacing:-.025em;line-height:1.02}
 
 /* ===== slotslide: het volledige model + wordmark ===== */
-.slide.finale{text-align:center;max-width:1280px}
+/* de slotslide gebruikt bijna de volle breedte: kleinere zijmarges op de stage */
+.stage:has(.slide.finale.active){padding-left:clamp(16px,2vw,40px);padding-right:clamp(16px,2vw,40px)}
+.slide.finale{text-align:center;max-width:min(1980px,100%)}
 .slide.finale .model-cap{font-size:11px;letter-spacing:.24em;text-transform:uppercase;
-  color:var(--faint);margin:0 0 22px}
+  color:var(--faint);margin:0 0 16px}
 .model-panel{border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.02);
-  padding:clamp(16px,2.4vw,30px)}
-.model-panel svg{width:100%;height:auto;display:block;max-height:56vh;overflow:visible}
-.slide.finale .closer{border-top:none;margin:clamp(20px,3vh,38px) 0 0;padding-top:0}
+  padding:clamp(10px,1.4vw,20px)}
+.model-panel svg{width:100%;height:auto;display:block;max-height:66vh;overflow:visible}
+.slide.finale .closer{border-top:none;margin:clamp(16px,2.6vh,32px) 0 0;padding-top:0}
 
 /* ===== illustraties naast de tekst (slides 2-9) ===== */
 .slide-split{display:grid;grid-template-columns:1.3fr .9fr;gap:44px;align-items:center}
