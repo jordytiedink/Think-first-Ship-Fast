@@ -34,10 +34,8 @@
   /* ---------- speaker notes: opslag ---------- */
   var PREFIX = 'tfsf-note:';
 
-  function slug(slide){
-    var h = slide.querySelector('.slide-title') || slide.querySelector('h1');
-    var t = h ? h.textContent : slide.getAttribute('aria-label') || '';
-    return t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'slide';
+  function slug(slide, i){
+    return 'slide-' + (i + 1);
   }
   var KEYS = slides.map(slug);
 
