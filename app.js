@@ -279,7 +279,7 @@
         if(b&&s) items.push('- [ ] **'+b.textContent.trim()+'.** '+s.textContent.trim());
       });
       var foot = ['',
-'Wij zijn als mensen verantwoordelijk voor het besluit en de gevolgen. Menselijke controle is dus geen laatste vinkje. Wat niet klopt, gaat terug, of we leggen de afwijking duidelijk vast. We houden bij waar AI steeds tekortschiet, en verwerken die patronen opnieuw in onze AI-instructies, context en het design system, zodat AI bij volgende opleveringen vaker meteen aan de kwaliteitseisen voldoet.',''
+'Wij zijn als mensen verantwoordelijk voor het besluit en de gevolgen. Menselijke controle is dus geen laatste vinkje. Wij beoordelen op UX en kwaliteit, niet op de juistheid van de code, dat blijft het werk van dev en AI. Wat niet klopt, gaat terug, of we leggen de afwijking duidelijk vast. We houden bij waar AI steeds tekortschiet, en verwerken die patronen opnieuw in onze AI-instructies, context en het design system, zodat AI bij volgende opleveringen vaker meteen aan de kwaliteitseisen voldoet.',''
       ];
       return head.concat(items).concat(foot).join('\n');
     }
