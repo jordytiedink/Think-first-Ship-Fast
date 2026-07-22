@@ -215,43 +215,43 @@
 
     /* markdown-export strategie-template */
     var MD = [
-'# UX-strategie (template)','',
-'De korte strategie onder de triage is de meetlat voor Discovery of Delivery en geeft AI de juiste context. Vul elk onderdeel in en verwijder daarna de cursieve uitleg. Houd het kort, liefst één tot twee A4\'s. Het invullen zelf is al Discovery-werk, geen formulier. Jij leidt, AI helpt hooguit mee. Een strategie die AI in vijf minuten laat maken, wordt gemiddeld, precies wat de triage wil voorkomen.','',
+'# UX-strategiesjabloon','',
+'De UX-strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen. Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4\'s. Het schrijven ervan is zelf Discovery-werk, geen formulier dat je even invult. Jij bepaalt de richting, AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig, anders ontstaat al snel precies de generieke richting die dit model moet voorkomen.','',
 '## Visie',
-'_In twee of drie zinnen: hoe ziet "goed" eruit voor de gebruiker, en waar wil je naartoe? Geen wens als "betere UX", maar een richting met een duidelijk standpunt. Schrijf het zo dat de visie over een jaar nog klopt._','',
+'_Beschrijf in twee of drie zinnen wat een goede ervaring voor de gebruiker betekent en welke richting je kiest. Vermijd vage doelen zoals "een betere UX". Formuleer een standpunt dat over een jaar nog steeds bruikbaar is._','',
 '[Vul de visie in]','',
 '## Principes (duurzaam, gelden over projecten heen)',
-'_3 tot 5 vuistregels die je aan een concrete beslissing kunt toetsen. Dit is het hart van de strategie: het helpt bij twijfel in de triage en stuurt AI. Schrijf gedragsregels, geen functies. Drie scherpe regels zijn beter dan vijf vage._','',
+'_Formuleer drie tot vijf duurzame vuistregels die over projecten heen gelden. Ieder principe moet helpen bij een concrete beslissing. Beschrijf gewenst gedrag, geen functies. Drie scherpe principes zijn beter dan vijf vage._','',
 '- [Principe]. [Eén zin die uitlegt wat het betekent.]',
 '- [Principe]. [...]',
 '- [Principe]. [...]','',
-'## User goals',
-'_Kort: wie is de gebruiker, wat wil die bereiken en waar loopt het nu vast. Maximaal een halve pagina, geen onderzoeksrapport. Benoem ook welke informatie je gebruikt en wat nog onzeker is. Belangrijke aannames moeten herleidbaar zijn naar een bron of gesprek._','',
+'## Gebruikersdoelen',
+'_Beschrijf kort wie de gebruiker is, wat die wil bereiken en waar die nu vastloopt. Beperk dit tot maximaal een halve pagina. Benoem welke bronnen je gebruikt en wat nog onzeker is. Belangrijke aannames moeten herleidbaar zijn naar een bron of gesprek._','',
 '[Vul de gebruikersschets in]','',
-'## Top 3 Jobs-to-be-Done',
-'_De drie belangrijkste taken, in de vorm "Als [rol] wil ik [taak], zodat [reden]." Kies alleen de drie taken die er echt toe doen._','',
+'## Drie belangrijkste Jobs-to-be-Done',
+'_Beschrijf de drie belangrijkste taken in deze vorm: als [rol] wil ik [taak], zodat [reden]. Kies alleen taken die bepalend zijn voor het initiatief._','',
 '- Als [rol] wil ik [taak], zodat [reden].',
 '- Als [rol] wil ik [taak], zodat [reden].',
 '- Als [rol] wil ik [taak], zodat [reden].','',
-'## Werkwijze',
-'_Hoe werkt het nu? Beschrijf de huidige aanpak, en ook waar gebruikers afhaken, fouten maken of extra hulp nodig hebben._','',
-'- [Huidige aanpak].','',
+'## Huidige werkwijze',
+'_Beschrijf hoe de gebruiker de taak nu uitvoert. Benoem waar mensen afhaken, fouten maken of extra hulp nodig hebben._','',
+'- [Huidige werkwijze].','',
 '## Problem statement',
-'_Eén alinea die het kernprobleem scherp maakt: wie heeft welk probleem, waardoor ontstaat het, en wat gebeurt er als we niets doen? Beschrijf het probleem, niet de oplossing._','',
+'_Beschrijf het kernprobleem in één alinea. Wie ervaart welk probleem, waardoor ontstaat het, en wat gebeurt er als we niets doen? Beschrijf het probleem, nog niet de oplossing._','',
 '[Vul het kernprobleem in]','',
-'## Challenges',
-'_De obstakels en voorwaarden die de aanpak bepalen: technische beperkingen, wettelijke eisen, gevoeligheden en uitzonderlijke situaties. Wees eerlijk over wat lastig is._','',
-'- [Challenge].','',
+'## Obstakels en randvoorwaarden',
+'_Beschrijf wat de aanpak beïnvloedt of begrenst: technische beperkingen, wettelijke eisen, gevoeligheden en uitzonderlijke situaties. Wees concreet over wat lastig is._','',
+'- [Obstakel of randvoorwaarde].','',
 '## Strategische prioriteiten',
-'_1 tot 3 thema\'s waar je voor dit initiatief op inzet. Dit is het niveau van het initiatief, los van de duurzame principes hierboven. Per prioriteit: een korte, duidelijke titel, een korte uitleg, de UX-outcome, concrete initiatieven en bewijs van succes._','',
+'_Bepaal 1 tot 3 thema\'s waarop dit initiatief inzet. Deze prioriteiten gelden voor dit initiatief, los van de duurzame principes hierboven. Geef iedere prioriteit een duidelijke titel, een korte onderbouwing, een UX-outcome, succescriteria en concrete initiatieven._','',
 '### [Titel van de prioriteit]',
-'[Omschrijving: één of twee zinnen waarom dit een prioriteit is.]','',
-'**UX outcome:** de ervaring die de gebruiker straks heeft, in gevoel en gedrag, niet in features. Bijvoorbeeld "De beheerder ervaart geen aarzeling bij ...".','',
-'**Succescriteria:** waaraan je ziet dat de gebruiker het probleem beter kan oplossen. Gebruik waar mogelijk gedrag, feedback of andere concrete signalen.','',
+'[Leg in één of twee zinnen uit waarom dit een prioriteit is.]','',
+'**UX-outcome:** wat de gebruiker straks ervaart en anders kan doen. Bijvoorbeeld "De beheerder twijfelt niet bij het instellen van ...".','',
+'**Succescriteria:** waaraan je ziet dat het probleem beter wordt opgelost. Gebruik waar mogelijk observeerbaar gedrag, feedback of andere concrete signalen.','',
 '**Initiatieven:**',
-'- [Concreet ding dat je gaat doen.]','',
-'## How might we',
-'_Open vragen die de problemen omzetten in kansen. Begin elke vraag met "Hoe kunnen we ...". Gebruik ze om ideeën te bedenken, dus stel ze breed genoeg, maar voorkom vragen waarop alles past. Beschrijf nog geen oplossing._','',
+'- [Concrete actie of oplossing die bijdraagt aan deze prioriteit.]','',
+'## Hoe kunnen we?',
+'_Zet de kernproblemen om in open vragen die ruimte geven aan verschillende oplossingen. Begin iedere vraag met "Hoe kunnen we ...". Maak de vraag breed genoeg om alternatieven te verkennen en scherp genoeg om richting te geven._','',
 '- Hoe kunnen we [kans]?',''
     ].join('\n');
 
@@ -270,8 +270,8 @@
     function buildMd(){
       var head = [
 '# Definition of done in Delivery','',
-'In Delivery maakt AI. Wij bewaken de kwaliteit en nemen het besluit. Elke oplevering gaat door dezelfde checklist voordat die naar dev of productie gaat. Gebruik de checklist al bij de eerste versie, zodat AI vanaf het begin een duidelijk signaal krijgt over de kwaliteit die we verwachten.','',
-'Een oplevering is klaar als aan alle punten is voldaan:',''
+'In Delivery helpt AI bij het maken. Wij bewaken de kwaliteit en nemen het besluit. Elke oplevering doorloopt dezelfde checklist voordat die naar development of productie gaat. Gebruik de checklist al bij de eerste versie, zodat de kwaliteitseisen vanaf het begin onderdeel zijn van de opdracht aan AI.','',
+'Een oplevering is pas klaar als alle punten zijn afgevinkt:',''
       ];
       var items=[];
       Array.prototype.forEach.call(grid.querySelectorAll('.crit'), function(c){
@@ -279,7 +279,8 @@
         if(b&&s) items.push('- [ ] **'+b.textContent.trim()+'.** '+s.textContent.trim());
       });
       var foot = ['',
-'Wij zijn als mensen verantwoordelijk voor het besluit en de gevolgen. Menselijke controle is dus geen laatste vinkje. Wij beoordelen op UX en kwaliteit, niet op de juistheid van de code, dat blijft het werk van dev en AI. Wat niet klopt, gaat terug, of we leggen de afwijking duidelijk vast. We houden bij waar AI steeds tekortschiet, en verwerken die patronen opnieuw in onze AI-instructies, context en het design system, zodat AI bij volgende opleveringen vaker meteen aan de kwaliteitseisen voldoet.',''
+'Mensen blijven verantwoordelijk voor het besluit en de gevolgen. Menselijke controle is daarom geen laatste vinkje, maar onderdeel van het hele proces. UX beoordeelt de gebruikerservaring en productkwaliteit, development blijft verantwoordelijk voor de juistheid, veiligheid en onderhoudbaarheid van de code, en AI draagt zelf geen verantwoordelijkheid.','',
+'Werk dat niet aan de kwaliteitslat voldoet, gaat terug, of we leggen de afwijking duidelijk vast. We houden ook bij waar AI steeds tekortschiet, en verwerken die patronen in de instructies, context en het design system, zodat de kwaliteit van volgende opleveringen toeneemt.',''
       ];
       return head.concat(items).concat(foot).join('\n');
     }
