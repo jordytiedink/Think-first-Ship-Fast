@@ -188,8 +188,10 @@ sup.cite a:hover{text-decoration:underline}
 .rcard h4{font-size:17px;font-weight:700;color:var(--ink);margin:0 0 8px;letter-spacing:-.01em}
 .rcard p{font-size:16px;line-height:1.6;color:var(--bodytext);margin:0}
 
-.cols{max-width:920px;margin:34px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.cols{max-width:920px;margin:34px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.colnum{display:inline-block;font:700 12px/1 "Helvetica Neue",Arial,sans-serif;color:var(--loop);letter-spacing:.12em;margin:0 0 12px}
 .colhead{font-size:var(--step-eyebrow);letter-spacing:.16em;text-transform:uppercase;margin:0 0 14px;font-weight:700;color:var(--ink)}
+.cols + .prose{max-width:920px}
 ul{margin:0;padding-left:18px}
 li{font-size:20px;line-height:1.6;color:var(--bodytext);margin:0 0 9px}
 li::marker{color:var(--faint)}
@@ -352,7 +354,8 @@ li::marker{color:var(--faint)}
 .duo-card.let li{color:var(--bodytext)}
 .duo-card.keep li{color:var(--bodytext)}
 
-.body p{font-size:20px;line-height:1.65;color:var(--bodytext);margin:0 0 12px}
+.body{border:1px solid var(--line2);border-radius:18px;padding:26px 26px 24px;background:linear-gradient(180deg,rgba(255,255,255,.022),transparent)}
+.body p{font-size:17px;line-height:1.7;color:var(--bodytext);margin:0}
 .ac-mens{color:var(--mens)} .ac-ai{color:var(--ai)}
 
 /* ===== bijlage · downloads ===== */
