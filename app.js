@@ -365,8 +365,8 @@
   /* ============ MINI-MODEL: huidige fase, sticky strip, klikbare diagram-knopen ============ */
   (function(){
     var PHASE = {s00:['challenge'],s01:['challenge'],s02:['triage'],s03:['discovery','delivery'],
-      s04:['discovery'],s05:['delivery'],s06:['outcome'],
-      s07:[],s08:[],s09:[],s10:[],srecap:[],s11:[]};
+      s04:['discovery'],s05:['delivery'],s06:[],s07:['outcome'],
+      s08:[],s09:[],s10:[],s11:[],srecap:[],s12:[]};
     var nodes = Array.prototype.slice.call(document.querySelectorAll('.minimodel [data-phase]'));
     function setActive(phases){
       nodes.forEach(function(n){ n.classList.toggle('active', phases.indexOf(n.getAttribute('data-phase'))>-1); });

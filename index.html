@@ -25,7 +25,7 @@
       <a class="mm-node mm-del" data-phase="delivery" href="#s05">Delivery</a>
     </span>
     <span class="mm-arrow" aria-hidden="true">›</span>
-    <a class="mm-node" data-phase="outcome" href="#s06">Outcome</a>
+    <a class="mm-node" data-phase="outcome" href="#s07">Outcome</a>
     <a class="mm-loop" data-phase="loop" href="#s02" title="de cyclus begint opnieuw" aria-label="de cyclus begint opnieuw">↻</a>
   </nav>
 
@@ -38,12 +38,13 @@
     <a href="#s03" data-target="s03"><span class="secnav-num">03</span><span class="secnav-label">Twee sporen</span></a>
     <a href="#s04" data-target="s04"><span class="secnav-num">04</span><span class="secnav-label">Onderzoek</span></a>
     <a href="#s05" data-target="s05"><span class="secnav-num">05</span><span class="secnav-label">Kwaliteitslat</span></a>
-    <a href="#s06" data-target="s06"><span class="secnav-num">06</span><span class="secnav-label">Het ritme</span></a>
-    <a href="#s07" data-target="s07"><span class="secnav-num">07</span><span class="secnav-label">De grens</span></a>
-    <a href="#s08" data-target="s08"><span class="secnav-num">08</span><span class="secnav-label">Als individu</span></a>
-    <a href="#s09" data-target="s09"><span class="secnav-num">09</span><span class="secnav-label">Voor het team</span></a>
-    <a href="#s10" data-target="s10"><span class="secnav-num">∇</span><span class="secnav-label">De strategie</span></a>
-    <a href="#s11" data-target="s11"><span class="secnav-num">↓</span><span class="secnav-label">Bijlage</span></a>
+    <a href="#s06" data-target="s06"><span class="secnav-num">06</span><span class="secnav-label">Itereren</span></a>
+    <a href="#s07" data-target="s07"><span class="secnav-num">07</span><span class="secnav-label">Het ritme</span></a>
+    <a href="#s08" data-target="s08"><span class="secnav-num">08</span><span class="secnav-label">De grens</span></a>
+    <a href="#s09" data-target="s09"><span class="secnav-num">09</span><span class="secnav-label">Als individu</span></a>
+    <a href="#s10" data-target="s10"><span class="secnav-num">10</span><span class="secnav-label">Voor het team</span></a>
+    <a href="#s11" data-target="s11"><span class="secnav-num">∇</span><span class="secnav-label">De strategie</span></a>
+    <a href="#s12" data-target="s12"><span class="secnav-num">↓</span><span class="secnav-label">Bijlage</span></a>
   </nav>
 
   <!-- knop naar de pitch-presentatie -->
@@ -131,7 +132,7 @@
 
           <line x1="1171" y1="265" x2="1227" y2="265" stroke="#948f9e" stroke-width="1.6" marker-end="url(#ah)"/>
           <rect class="nbox" x="1230" y="236" width="110" height="58" rx="10"/>
-          <text class="ntxt dnode" data-target="s06" x="1285" y="270">Outcome</text>
+          <text class="ntxt dnode" data-target="s07" x="1285" y="270">Outcome</text>
 
           <!-- continuation: de cyclus begint opnieuw -->
           <g opacity="0.4">
@@ -179,7 +180,7 @@
       <span class="tag">00 · Waarom</span>
       <h2 class="statement">Aan een product werken kent twee kanten</h2>
       <div class="prose">
-        <p>AI wordt vooral ingezet om sneller te bouwen. Veel uitvoerend ontwikkelwerk is voorspelbaar en toetsbaar, bijvoorbeeld op consistentie, toegankelijkheid, robuustheid, snelheid en wet- en regelgeving. Daar kan AI goed bij helpen.</p>
+        <p>AI wordt vooral ingezet om sneller te bouwen. Veel uitvoerend ontwikkelwerk is voorspelbaar en toetsbaar, bijvoorbeeld op consistentie, toegankelijkheid, robuustheid, snelheid en wet- en regelgeving. Daar kan AI goed bij helpen: in een gecontroleerd experiment van GitHub schreven ontwikkelaars met Copilot een taak 55 procent sneller af<sup class="cite"><a href="#bron-1">1</a></sup>, en McKinsey meet voor het schrijven van code een tijdwinst van 35 tot 45 procent<sup class="cite"><a href="#bron-2">2</a></sup>.</p>
         <p>Maar productontwikkeling begint vóór het bouwen. Eerst bepalen we welk probleem we oplossen, voor wie we dat doen en welke richting daarbij past. Dat werk draait om onzekerheid, onvolledige informatie en botsende belangen, en vraagt om menselijk oordeel.</p>
         <p>Hier ontstaat veel van de productwaarde. AI kan opties verkennen en patronen aanwijzen, maar mensen kiezen de richting en blijven verantwoordelijk voor de gevolgen.</p>
         <p>Dat geldt voor design én development. Voordat er code ligt, zijn keuzes nodig over architectuur, techniek, schaalbaarheid, beveiliging en onderhoud. Ook die keuzes vragen om goed oordeel.</p>
@@ -203,7 +204,8 @@
         <span class="qual">Echte betrokkenheid bij de gebruiker</span>
       </div>
       <div class="prose">
-        <p>Zonder duidelijke richting valt AI terug op veelvoorkomende patronen. Het resultaat oogt degelijk, maar is vaak voorspelbaar en inwisselbaar. Zo produceren we vooral sneller middelmaat.</p>
+        <p>Kwaliteit is lastig te vatten, en het is meer dan een mooi scherm. Katie Dill, hoofd design bij Stripe, laat zien dat vakmanschap en afwerking directe businesswaarde hebben<sup class="cite"><a href="#bron-8">8</a></sup>.</p>
+        <p>Zonder duidelijke richting valt AI terug op veelvoorkomende patronen. Het resultaat oogt degelijk, maar is vaak voorspelbaar en inwisselbaar. Zo produceren we vooral sneller middelmaat: onderzoek in Science Advances laat zien dat teksten met AI-hulp als creatiever worden beoordeeld, maar onderling steeds meer op elkaar gaan lijken<sup class="cite"><a href="#bron-3">3</a></sup>.</p>
         <p>Daarom bepalen we per project hoeveel denkwerk nodig is voordat we bouwen. Veel onzekerheid, grote gevolgen of een duidelijke kans op onderscheid vragen om Discovery. Bij weinig onzekerheid en een duidelijke oplossing volstaat Delivery.</p>
         <p>AI versnelt de uitvoering. Wij zetten ons oordeel in waar het verschil maakt. Dat is Think First, Ship Fast.</p>
       </div>
@@ -216,6 +218,7 @@
         <p>AI verkort de uitvoering, maar neemt geen verantwoordelijkheid over. Wij bepalen het probleem, kiezen de richting en bewaken de kwaliteit.</p>
         <p>AI ondersteunt ons bij onderzoek, alternatieven, prototypes en uitvoering, maar de productbeslissing blijft van ons.</p>
         <p>Daarom krijgt niet elk project hetzelfde proces. Een triage aan het begin bepaalt hoeveel Discovery nodig is en wanneer we naar Delivery gaan. De triple diamond blijft onze gedeelde kaart, en de route erdoorheen verschilt per project.</p>
+        <p>De begrippen Discovery en Delivery leunen op het werk van Buzz Usborne over ontwerpen met AI<sup class="cite"><a href="#bron-4">4</a></sup>.</p>
       </div>
     </section>
 
@@ -379,6 +382,7 @@
       <h2 class="statement">De kwaliteitslat in Delivery</h2>
       <div class="prose">
         <p>In Delivery helpt AI bij het maken. Wij bewaken de kwaliteit en nemen het besluit. Elke oplevering doorloopt dezelfde checklist voordat die naar development of productie gaat.</p>
+        <p>Uit de Stack Overflow-enquête van 2024 blijkt waarom die controle nodig is: 76 procent van de ontwikkelaars gebruikt AI, maar slechts 43 procent vertrouwt op de juistheid ervan, en bijna de helft vindt AI zwak bij complexe taken<sup class="cite"><a href="#bron-7">7</a></sup>.</p>
         <p>Gebruik de checklist al bij de eerste versie. Zo zijn de kwaliteitseisen vanaf het begin onderdeel van de opdracht aan AI.</p>
       </div>
       <p class="cl-lead">Een oplevering is pas klaar als alle punten zijn afgevinkt</p>
@@ -403,6 +407,22 @@
     </section>
 
     <section class="sec reveal" id="s06">
+      <span class="tag">06 · Itereren</span>
+      <h2 class="statement">Sneller leveren, vaker itereren</h2>
+      <div class="prose">
+        <p>Sneller leveren mag, maar niet met de belofte dat het in één keer klopt. Wie sneller levert, levert minder volledig, dus koppelen we snelheid aan iteratie: we zetten iets neer, meten, en verbeteren in een volgende ronde.</p>
+        <p>Elke iteratie verhoogt de zekerheid over de kwaliteit. De eerste versie geeft misschien tien procent zekerheid, na een paar rondes zit je een stuk hoger. Zo is snelheid geen risico, maar een manier om sneller te leren.</p>
+      </div>
+      <figure class="chart-card">
+        <img src="assets/iteratie-zekerheid.svg" alt="Lijndiagram: de zekerheid over kwaliteit stijgt van 10% na iteratie 1, naar 40% na iteratie 2, 70% na iteratie 3, tot 90% na iteratie 4. Een gestreepte lijn op 100% toont dat volledige zekerheid vooraf niet bestaat.">
+      </figure>
+      <div class="prose">
+        <p>Dat is ook ons verhaal naar de organisatie. We gaan sneller leveren, op voorwaarde dat we meerdere iteraties doen. Honderd procent zekerheid vooraf bestond toch niet, dat was schijnzekerheid: echte zekerheid komt pas als mensen het gebruiken.</p>
+        <p>Het DORA-rapport van Google uit 2024 toont de keerzijde van ongecontroleerde snelheid: bij 25 procent meer AI-gebruik daalde de stabiliteit van releases met ruim 7 procent, terwijl driekwart van de ontwikkelaars zich juist productiever voelde<sup class="cite"><a href="#bron-5">5</a></sup>. Fin van Intercom laat zien dat het ook goed kan gaan: ze verdubbelden hun producttempo en gingen 39 procent sneller van idee naar productie. De codekwaliteit zakte eerst toen AI meer ging schrijven, en kroop daarna weer omhoog toen ze er strak op stuurden<sup class="cite"><a href="#bron-6">6</a></sup>.</p>
+      </div>
+    </section>
+
+    <section class="sec reveal" id="s07">
       <span class="tag">06 · Het ritme</span>
       <h2 class="statement">Werk komt terug bij de triage</h2>
       <div class="prose">
@@ -421,7 +441,7 @@
       <p class="note">Werk komt uit twee richtingen. De PO brengt werk in vanuit de backlog, en UX brengt kansen in vanuit onderzoek, analyse en eigen observaties: een goed idee hoeft niet te wachten tot iemand erom vraagt. Grote vraagstukken die meerdere kanalen of schermen raken, knippen we eerst op in behapbare delen. Ook stoppen, uitfaseren of verwijderen is werk, vooral de uitvoering en communicatie vragen dan om een bewuste keuze.</p>
     </section>
 
-    <section class="sec reveal" id="s07">
+    <section class="sec reveal" id="s08">
       <span class="tag">07 · De grens</span>
       <h2 class="statement">Loslaten en bewaken</h2>
       <div class="duo">
@@ -448,7 +468,7 @@
       </div>
     </section>
 
-    <section class="sec reveal" id="s08">
+    <section class="sec reveal" id="s09">
       <span class="tag">08 · Als individu</span>
       <h2 class="statement">Wat dit van ieder van ons vraagt</h2>
       <ul class="stack">
@@ -461,7 +481,7 @@
       </ul>
     </section>
 
-    <section class="sec reveal" id="s09">
+    <section class="sec reveal" id="s10">
       <span class="tag">09 · Voor het team</span>
       <h2 class="statement">Twee praktijken die hierbij horen</h2>
       <div class="cols">
@@ -479,7 +499,7 @@
       </div>
     </section>
 
-    <section class="sec reveal" id="s10">
+    <section class="sec reveal" id="s11">
       <span class="tag">Deel 2 · de strategie</span>
       <h2 class="statement">De strategie die de triage voedt</h2>
       <div class="prose">
@@ -503,12 +523,12 @@
           <a class="mm-node mm-del" data-phase="delivery" href="#s05">Delivery</a>
         </span>
         <span class="mm-arrow" aria-hidden="true">›</span>
-        <a class="mm-node" data-phase="outcome" href="#s06">Outcome</a>
+        <a class="mm-node" data-phase="outcome" href="#s07">Outcome</a>
         <a class="mm-loop" data-phase="loop" href="#s02" title="de cyclus begint opnieuw" aria-label="de cyclus begint opnieuw">↻</a>
       </nav>
     </section>
 
-    <section class="sec reveal" id="s11">
+    <section class="sec reveal" id="s12">
       <span class="tag">Bijlage · documenten</span>
       <h2 class="statement">Meenemen en hergebruiken</h2>
       <div class="prose">
@@ -539,6 +559,20 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="bronnen reveal" id="bronnen" aria-label="Bronnen">
+      <h2>Bronnen</h2>
+      <ol>
+        <li id="bron-1">GitHub, <cite>The Impact of AI on Developer Productivity: Evidence from GitHub Copilot</cite> (2023). <a href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener">arxiv.org/abs/2302.06590</a></li>
+        <li id="bron-2">McKinsey, <cite>Unleashing developer productivity with generative AI</cite> (2023). <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/unleashing-developer-productivity-with-generative-ai" target="_blank" rel="noopener">mckinsey.com</a></li>
+        <li id="bron-3">Doshi en Hauser, <cite>Generative AI enhances individual creativity but reduces the collective diversity of novel content</cite>, Science Advances (2024). <a href="https://www.science.org/doi/10.1126/sciadv.adn5290" target="_blank" rel="noopener">science.org</a></li>
+        <li id="bron-4">Buzz Usborne, over Discovery en Delivery in het AI-tijdperk. <a href="https://buzzusborne.com/writing/discovery-delivery/" target="_blank" rel="noopener">buzzusborne.com</a></li>
+        <li id="bron-5">Google DORA, <cite>Accelerate State of DevOps Report 2024</cite> (2024). <a href="https://dora.dev/research/2024/dora-report/" target="_blank" rel="noopener">dora.dev</a></li>
+        <li id="bron-6">Fin (Intercom), <cite>2× – nine months later</cite> (2026). <a href="https://ideas.fin.ai/p/2x-nine-months-later" target="_blank" rel="noopener">ideas.fin.ai</a></li>
+        <li id="bron-7">Stack Overflow, <cite>2024 Developer Survey: AI</cite> (2024). <a href="https://survey.stackoverflow.co/2024/ai" target="_blank" rel="noopener">survey.stackoverflow.co</a></li>
+        <li id="bron-8">Katie Dill (Stripe), <cite>Craft and beauty: the business value of form in function</cite>, Stripe Sessions (2024). <a href="https://stripe.com/sessions/2024/craft-and-beauty-the-business-value-of-form-in-function" target="_blank" rel="noopener">stripe.com</a></li>
+      </ol>
     </section>
 
   </main>

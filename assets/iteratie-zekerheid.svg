@@ -1,0 +1,69 @@
+<svg viewBox="0 0 860 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titel beschrijving">
+  <title id="titel">Zekerheid groeit per iteratie</title>
+  <desc id="beschrijving">Lijndiagram: de zekerheid over kwaliteit stijgt van 10% na iteratie 1, naar 40% na iteratie 2, 70% na iteratie 3, tot 90% na iteratie 4. Een gestreepte lijn op 100% toont dat volledige zekerheid vooraf niet bestaat.</desc>
+
+  <style>
+    text{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif}
+  </style>
+
+  <!-- Titel -->
+  <text x="430" y="42" text-anchor="middle" font-size="24" font-weight="600" fill="#22252b">Zekerheid groeit per iteratie</text>
+
+  <!-- Gridlines (25/50/75%) -->
+  <g stroke="#e7e7ea" stroke-width="1">
+    <line x1="110" y1="350" x2="790" y2="350"/>
+    <line x1="110" y1="270" x2="790" y2="270"/>
+    <line x1="110" y1="190" x2="790" y2="190"/>
+  </g>
+
+  <!-- 100%-lijn: volledige zekerheid bestaat niet -->
+  <line x1="110" y1="110" x2="790" y2="110" stroke="#9aa0aa" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="790" y="99" text-anchor="end" font-size="13" font-style="italic" fill="#6b7280">volledige zekerheid vooraf bestaat niet</text>
+
+  <!-- Assen -->
+  <line x1="110" y1="110" x2="110" y2="430" stroke="#c7cad0" stroke-width="1.5"/>
+  <line x1="110" y1="430" x2="790" y2="430" stroke="#9aa0aa" stroke-width="1.5"/>
+
+  <!-- Y-as labels -->
+  <g font-size="13" fill="#6b7280" text-anchor="end">
+    <text x="98" y="434">0%</text>
+    <text x="98" y="354">25%</text>
+    <text x="98" y="274">50%</text>
+    <text x="98" y="194">75%</text>
+    <text x="98" y="114">100%</text>
+  </g>
+
+  <!-- Y-as titel -->
+  <text x="26" y="270" text-anchor="middle" font-size="13" fill="#6b7280" transform="rotate(-90 26 270)">Zekerheid over kwaliteit</text>
+
+  <!-- X-as labels -->
+  <g font-size="13" fill="#6b7280" text-anchor="middle">
+    <text x="110" y="458">Iteratie 1</text>
+    <text x="337" y="458">Iteratie 2</text>
+    <text x="563" y="458">Iteratie 3</text>
+    <text x="790" y="458">Iteratie 4</text>
+  </g>
+
+  <!-- X-as titel -->
+  <text x="450" y="492" text-anchor="middle" font-size="13" fill="#6b7280">Iteraties</text>
+
+  <!-- Curve: 10% → 40% → 70% → 90%, concaaf -->
+  <path d="M110,398 C185.7,366 261.5,334 337,302 C412.5,270 487.5,232.7 563,206 C638.5,179.3 714.3,163.3 790,142"
+        fill="none" stroke="#0f9488" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Punten per iteratie -->
+  <g>
+    <circle cx="110" cy="398" r="6" fill="#0f9488" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="337" cy="302" r="6" fill="#0f9488" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="563" cy="206" r="6" fill="#0f9488" stroke="#ffffff" stroke-width="2.5"/>
+    <circle cx="790" cy="142" r="6" fill="#0f9488" stroke="#ffffff" stroke-width="2.5"/>
+  </g>
+
+  <!-- Percentage-labels -->
+  <g font-size="15" font-weight="600" fill="#22252b" text-anchor="middle">
+    <text x="110" y="382">10%</text>
+    <text x="337" y="286">40%</text>
+    <text x="563" y="190">70%</text>
+    <text x="790" y="126">90%</text>
+  </g>
+</svg>
