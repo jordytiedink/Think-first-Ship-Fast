@@ -42,8 +42,6 @@ AI versnelt de uitvoering. Wij zetten ons oordeel in waar het verschil maakt. Da
 
 *De triage stuurt elk project naar Discovery of Delivery. Het is een doorontwikkeling van onze triple diamond, geen vervanging.*
 
-De begrippen Discovery en Delivery leunen op het werk van Buzz Usborne over ontwerpen met AI.
-
 ### Kernprincipe
 
 AI verkort de uitvoering, maar neemt geen verantwoordelijkheid over. Wij bepalen het probleem, kiezen de richting en bewaken de kwaliteit.
@@ -366,7 +364,6 @@ Het schrijven van de strategie is zelf Discovery-werk. Het is geen formulier dat
 * GitHub, *The Impact of AI on Developer Productivity: Evidence from GitHub Copilot* (2023). https://arxiv.org/abs/2302.06590
 * McKinsey, *Unleashing developer productivity with generative AI* (2023). https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/unleashing-developer-productivity-with-generative-ai
 * Doshi en Hauser, *Generative AI enhances individual creativity but reduces the collective diversity of novel content*, Science Advances (2024). https://www.science.org/doi/10.1126/sciadv.adn5290
-* Buzz Usborne, over Discovery en Delivery in het AI-tijdperk. https://buzzusborne.com/writing/discovery-delivery/
 * Google DORA, *Accelerate State of DevOps Report 2024* (2024). https://dora.dev/research/2024/dora-report/
 * Fin (Intercom), *2× – nine months later* (2026). https://ideas.fin.ai/p/2x-nine-months-later
 * Stack Overflow, *2024 Developer Survey: AI* (2024). https://survey.stackoverflow.co/2024/ai

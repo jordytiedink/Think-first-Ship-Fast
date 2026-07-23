@@ -163,9 +163,10 @@ sup.cite{font-size:.7em;margin-left:1px}
 sup.cite a{color:var(--loop);text-decoration:none}
 sup.cite a:hover{text-decoration:underline}
 
-/* 06 · itereren: het lijndiagram is bewust voor een wit vlak ontworpen, dus krijgt een eigen lichte kaart */
-.chart-card{max-width:var(--maxw-prose);margin:30px auto;background:#fff;border-radius:18px;
-  padding:var(--space-4);box-shadow:0 30px 90px -35px rgba(0,0,0,.6)}
+/* 06 · itereren: het lijndiagram in dezelfde donkere paneelstijl als het diagram bovenaan */
+.chart-card{max-width:var(--maxw-prose);margin:30px auto;background:var(--surface);
+  border:1px solid var(--line2);border-radius:18px;padding:var(--space-4);
+  box-shadow:0 30px 90px -35px rgba(0,0,0,.6)}
 .chart-card img{display:block;width:100%;height:auto}
 
 /* bronnen: compacte voetnotenlijst onderaan de pagina */

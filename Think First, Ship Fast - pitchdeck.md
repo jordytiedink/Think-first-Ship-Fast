@@ -332,6 +332,5 @@
 ## Bronnen
 
 * Katie Dill over de lagen van productkwaliteit en de waarde van vakmanschap. [Source](https://stripe.com/sessions/2024/craft-and-beauty-the-business-value-of-form-in-function)
-* Buzz Usborne over het onderscheid tussen Discovery en Delivery bij werken met AI. [Source](https://buzzusborne.com/writing/discovery-delivery/)
 
 *Losse cijfers zijn bewust weggelaten. De pitch leunt op de redenering, niet op betwistbare getallen. Wil je toch onderbouwing met een concrete case, dan is het Fin-verhaal (2x productiviteit in negen maanden) beschikbaar om terug te zetten.*
