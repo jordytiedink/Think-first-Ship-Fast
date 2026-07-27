@@ -216,7 +216,7 @@
     /* markdown-export strategie-template */
     var MD = [
 '# UX-strategiesjabloon','',
-'De UX-strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen. Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4\'s. Het schrijven ervan is zelf Discovery-werk, geen formulier dat je even invult. Jij bepaalt de richting, AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig, anders ontstaat al snel precies de generieke richting die dit model moet voorkomen.','',
+'De UX-strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen. Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4\'s. Het schrijven ervan is zelf Discovery-werk, geen formulier dat je even invult. Jij bepaalt de richting, AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig, anders ontstaat al snel precies de generieke richting die dit model moet voorkomen. De strategie is zelf ook zo\'n contextbestand: je schrijft haar voor het team en voor de AI-tools waarmee we bouwen.','',
 '## Visie',
 '_Beschrijf in twee of drie zinnen wat een goede ervaring voor de gebruiker betekent en welke richting je kiest. Vermijd vage doelen zoals "een betere UX". Formuleer een standpunt dat over een jaar nog steeds bruikbaar is._','',
 '[Vul de visie in]','',
@@ -366,7 +366,7 @@
   (function(){
     var PHASE = {s00:['challenge'],s01:['challenge'],s02:['triage'],s03:['discovery','delivery'],
       s04:['discovery'],s05:['delivery'],s06:[],s07:['outcome'],
-      s08:[],s09:[],s10:[],s11:[],srecap:[],s12:[]};
+      s08:[],s09:[],s09b:[],s10:[],s11:[],srecap:[],s12:[]};
     var nodes = Array.prototype.slice.call(document.querySelectorAll('.minimodel [data-phase]'));
     function setActive(phases){
       nodes.forEach(function(n){ n.classList.toggle('active', phases.indexOf(n.getAttribute('data-phase'))>-1); });

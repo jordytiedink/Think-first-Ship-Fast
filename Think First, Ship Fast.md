@@ -252,6 +252,7 @@ Challenge, Problem statement, Solution en Outcome blijven de gedeelde taal voor 
 
 * hi-fi-schermen als belangrijkste resultaat
 * zware, statische overdrachten
+* deliverables die alleen voor mensen leesbaar zijn
 * het idee dat iedere klus hetzelfde proces nodig heeft
 * het idee dat snelheid belangrijker is dan een goede keuze
 
@@ -273,12 +274,22 @@ Challenge, Problem statement, Solution en Outcome blijven de gedeelde taal voor 
 * **Vlot schakelen.** In Discovery gebruik je AI om te verkennen en uit te dagen. In Delivery gebruik je AI om te maken en controleer je de uitkomst. Je moet herkennen welke houding op welk moment nodig is.
 * **Ervaring doorgeven.** Dit model leunt sterk op oordeel. Junioren herkennen nog niet altijd waar een interface wringt of waarom een interactie wel of niet werkt. Koppel junioren aan senioren en geef ze ruimte om breed te verkennen. Zo bouwen ze ervaring en smaak op.
 
+### Wat we opleveren verandert
+
+Tot nu toe schreven we onze documentatie vooral voor mensen. Persona’s, journey maps, onderzoeksrapporten en wireframes met toelichting hielpen collega’s om de context te begrijpen en keuzes te maken.
+
+Nu AI steeds vaker meebouwt, wordt onze documentatie ook invoer voor een model. Dan moet de kennis onder het ontwerp expliciet zijn. Een stockfoto in een persona draagt weinig bruikbare context over. De regel ‘Gebruikers haken af als we vragen om informatie die ze niet bij de hand hebben’ doet dat wel. AI kan daar tijdens het maken rekening mee houden.
+
+Daarom moet onze ontwerpkennis vindbaar, actueel en leesbaar zijn voor mensen én AI. Google Labs publiceerde op 21 april 2026 de open specificatie DESIGN.md. Dit bestand combineert machineleesbare designtokens met uitleg over de bedoeling en toepassing ervan. Voor FortyTwo kunnen we hetzelfde principe gebruiken. Onderzoeksinzichten, interactieafspraken, onze begrippenlijst en relevante gebruikerscontext horen daar ook bij.
+
+Dit vraagt om doorlopend onderhoud. De context verandert mee met het product en met wat we leren van AI-uitvoer. Het resultaat meten we aan de kwaliteit van wat ermee wordt gemaakt. Leidt de context tot betere oplossingen die passen bij FortyTwo en onze gebruikers? Dan werkt ze.
+
 ### Voor het UX-team
 
 Twee werkwijzen zijn hierbij belangrijk:
 
 * **Bewijs boven mening.** Probeer je eigen oplossing eerst te weerleggen voordat je die verdedigt. Neem naar reviews en gesprekken met stakeholders een prototype mee dat mensen zelf kunnen verkennen. Gebruik het om samen vragen te beantwoorden en bewijs te verzamelen. Onderbouw ‘dit is niet goed genoeg’ met bewijs, niet met een mening. ‘Vijftig procent van de gebruikers is ontevreden over de vertaling’ is een sterker verhaal dan ‘ik vind als UX’er dat dit niet goed genoeg is’. Met data hoef je niet te hopen dat de product owner je op je woord gelooft.
-* **Leg kwaliteit vast in gedeelde tools.** Als PO en development geloofwaardige schermen kunnen maken, is UX niet langer de enige maker. Maak FortyTwo daarom leesbaar voor AI-modellen. Beschrijf componenten, tokens, patronen, richtlijnen en productprincipes in de codetools. Zo begint iedereen vanuit dezelfde kwaliteitsbasis. De modellen zijn slim genoeg. Het schaarse is dat wij ze onze product- en ontwerpcontext voeren. Een leesbaar design system en een heldere strategie zijn daarom veel waard.
+* **Leg kwaliteit vast in gedeelde tools.** Als PO en development geloofwaardige schermen kunnen maken, is UX niet langer de enige maker. Zorg dan dat iedereen vanuit dezelfde kwaliteitsbasis begint, zoals hierboven beschreven. De modellen zijn slim genoeg. Het schaarse is dat wij ze onze product- en ontwerpcontext voeren. Een leesbaar design system en een heldere strategie zijn daarom veel waard.
 
 Dit werkt alleen als de organisatie meebeweegt. Als we op een nieuwe manier werken maar op oude resultaten worden beoordeeld, blijven losse initiatieven ontstaan. Beoordeel teams daarom op kwaliteit, onderbouwde keuzes, leervermogen en gebruikersresultaten, niet op het aantal schermen of documenten.
 
@@ -289,6 +300,8 @@ Dit werkt alleen als de organisatie meebeweegt. Als we op een nieuwe manier werk
 Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4’s.
 
 Het schrijven van de strategie is zelf Discovery-werk. Het is geen formulier dat je even invult. Jij bepaalt de richting. AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig. Dan ontstaat al snel precies de generieke richting die dit model moet voorkomen.
+
+De strategie is zelf ook zo'n contextbestand. Je schrijft haar voor het team en voor de AI-tools waarmee we bouwen.
 
 ### Visie
 
@@ -368,3 +381,5 @@ Het schrijven van de strategie is zelf Discovery-werk. Het is geen formulier dat
 * Fin (Intercom), *2× – nine months later* (2026). https://ideas.fin.ai/p/2x-nine-months-later
 * Stack Overflow, *2024 Developer Survey: AI* (2024). https://survey.stackoverflow.co/2024/ai
 * Katie Dill (Stripe), *Craft and beauty: the business value of form in function*, Stripe Sessions (2024). https://stripe.com/sessions/2024/craft-and-beauty-the-business-value-of-form-in-function
+* Tony Alicea, *UX-Context Design: Using UX Knowledge to Inform AI-Generated Design*, Nielsen Norman Group (2026). https://www.nngroup.com/articles/ux-context-design/
+* Google Labs, *DESIGN.md* (2026). https://github.com/google-labs-code/design.md
