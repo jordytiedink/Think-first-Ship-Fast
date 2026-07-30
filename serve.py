@@ -2,9 +2,10 @@
 """Minimale statische server voor lokale preview (vermijdt os.getcwd in de sandbox)."""
 import functools
 import http.server
+import os
 import socketserver
 
-ROOT = "/Users/jordytiedink/Documents/Claude/Claude Code/Triage-model"
+ROOT = os.path.dirname(os.path.abspath(__file__))
 PORT = 8765
 
 Handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=ROOT)

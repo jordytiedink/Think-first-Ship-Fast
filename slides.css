@@ -136,9 +136,18 @@ body{
 .slide.finale{text-align:center;max-width:min(1980px,100%)}
 .slide.finale .model-cap{font-size:11px;letter-spacing:.24em;text-transform:uppercase;
   color:var(--faint);margin:0 0 16px}
+/* titel + korte samenvatting boven de plaat */
+.slide.finale .finale-title{font-size:clamp(26px,3.2vw,44px);
+  max-width:none;margin:0 auto clamp(10px,1.6vh,18px)}
+.sumstrip{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;
+  gap:clamp(10px,1.6vw,26px);margin:0 0 clamp(12px,1.8vh,22px);padding:0}
+.sumstrip li{position:relative;font-size:clamp(14px,1.35vw,19px);line-height:1.35;color:var(--bodytext)}
+.sumstrip li+li::before{content:"";position:absolute;left:calc(clamp(10px,1.6vw,26px) / -2 - 2px);
+  top:.42em;width:4px;height:4px;border-radius:50%;background:var(--line2)}
+.sumstrip b{color:var(--ink);font-weight:700}
 .model-panel{border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.02);
   padding:clamp(10px,1.4vw,20px)}
-.model-panel svg{width:100%;height:auto;display:block;max-height:66vh;overflow:visible}
+.model-panel svg{width:100%;height:auto;display:block;max-height:52vh;overflow:visible}
 .slide.finale .closer{border-top:none;margin:clamp(16px,2.6vh,32px) 0 0;padding-top:0}
 
 /* ===== illustraties naast de tekst (slides 2-9) ===== */
@@ -181,6 +190,12 @@ body{
   border:1px solid color-mix(in srgb,var(--neon) 40%,transparent);background:color-mix(in srgb,var(--neon) 12%,transparent)}
 .ask .txt{font-size:clamp(16px,1.8vw,20px);line-height:1.45;color:var(--ink);padding-top:8px}
 .ask .txt .ph{color:var(--neon);font-style:italic}
+
+/* de vraag als kaart in de rechterkolom van de samenvattingsslide */
+.askcard{align-self:center}
+.askcard li{font-size:clamp(17px,1.8vw,21px)}
+.askcard .askfoot{margin:22px 0 0;padding-top:16px;border-top:1px solid var(--line);
+  font-size:clamp(14px,1.4vw,16px);line-height:1.45;color:var(--muted)}
 
 /* ===== bediening onderaan ===== */
 .controls{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:42;
