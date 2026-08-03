@@ -161,8 +161,10 @@ body{
 .illo .lbl-ai{fill:#c3b0ff;font-weight:700}
 
 /* ===== bronnenpaneel (verantwoordingsslide) ===== */
-.srcpanel{align-self:stretch;display:flex;flex-direction:column;justify-content:center;
-  border:1px solid var(--line);border-radius:18px;padding:24px 26px;
+.slide-split.top{align-items:start;margin-top:18px}
+.slide-split.top .points{margin-top:0}
+.srcpanel{display:flex;flex-direction:column;
+  border:1px solid var(--line);border-radius:18px;padding:22px 24px;
   background:linear-gradient(180deg,rgba(155,123,255,.05),rgba(255,255,255,.02))}
 .srchead{display:flex;align-items:center;gap:10px;margin:0 0 4px;
   font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
