@@ -249,53 +249,6 @@ body{
 .controls .div{width:1px;height:22px;background:var(--line2);margin:0 4px}
 .controls button[aria-pressed="true"]{color:var(--ai);background:rgba(155,123,255,.14)}
 
-/* ===== speaker notes-lade ===== */
-.notes{position:fixed;left:0;right:0;bottom:0;z-index:44;transform:translateY(100%);
-  transition:transform .32s var(--ease);
-  background:rgba(14,14,20,.96);border-top:1px solid var(--line2);
-  -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
-  box-shadow:0 -20px 50px rgba(0,0,0,.5);max-height:46vh;display:flex;flex-direction:column}
-.notes.open{transform:none}
-.notes-head{display:flex;align-items:center;justify-content:space-between;gap:12px;
-  padding:14px 22px;border-bottom:1px solid var(--line)}
-.notes-head .lbl{display:flex;align-items:center;gap:10px;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--faint)}
-.notes-head .lbl .ico{width:16px;height:16px;color:var(--ai)}
-.notes-head .num{font-size:12px;color:var(--faint)}
-.notes-close{appearance:none;border:none;background:transparent;color:var(--muted);cursor:pointer;
-  width:34px;height:34px;border-radius:9px;display:grid;place-items:center}
-.notes-close:hover{color:var(--ink);background:rgba(255,255,255,.07)}
-.notes-close .ico{width:18px;height:18px}
-.notes-body{padding:18px 22px 26px;overflow-y:auto;font-size:16px;line-height:1.65;color:var(--bodytext)}
-.notes-body p{margin:0 0 12px;max-width:72ch}
-.notes-body p:last-child{margin-bottom:0}
-.notes-body strong{color:var(--ink)}
-/* bewerkbare notities */
-.notes-actions{display:flex;align-items:center;gap:10px}
-.notes-status{font-size:11px;color:var(--faint);letter-spacing:.02em;min-width:74px;text-align:right;transition:color .2s}
-.notes-status.saved{color:var(--mens)}
-.notes-btn{appearance:none;background:transparent;border:1px solid var(--line2);color:var(--muted);cursor:pointer;
-  font-size:11px;letter-spacing:.02em;padding:6px 11px;border-radius:8px;white-space:nowrap;transition:color .15s,border-color .15s}
-.notes-btn:hover{color:var(--ink);border-color:var(--faint)}
-.notes-edit{display:block;width:100%;min-height:120px;max-width:72ch;background:rgba(255,255,255,.03);
-  border:1px solid var(--line);border-radius:10px;padding:14px 16px;
-  color:var(--bodytext);font-family:inherit;font-size:16px;line-height:1.65;resize:none;outline:none;overflow:hidden}
-.notes-edit:focus{border-color:var(--line2);background:rgba(255,255,255,.05)}
-.notes-edit::placeholder{color:var(--faint)}
-.notes-title{display:none}
-
-/* ===== presentatieweergave (apart tabblad, ?view=notes) ===== */
-.notes-view{overflow:auto}
-.notes-view .bg-aura,.notes-view .veil,.notes-view .deck-back,.notes-view .deck-progress,.notes-view .stage{display:none}
-.notes-view #notesBtn,.notes-view #presentBtn,.notes-view #fsBtn,.notes-view #notesClose,.notes-view .controls .div{display:none}
-.notes-view .notes{position:static;transform:none;max-height:none;height:auto;display:block;
-  background:transparent;border-top:none;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
-.notes-view .notes-head{max-width:900px;margin:0 auto;padding:64px 24px 0;border-bottom:none}
-.notes-view .notes-title{display:block;max-width:900px;margin:6px auto 0;padding:0 24px;
-  font-size:clamp(26px,3.4vw,40px);line-height:1.06;letter-spacing:-.02em;font-weight:800;color:var(--ink)}
-.notes-view .notes-body{max-width:900px;margin:0 auto;padding:18px 24px 110px}
-.notes-view .notes-edit{min-height:54vh;font-size:19px;line-height:1.7}
-.notes-view .controls{background:rgba(20,20,28,.7)}
-
 .kbd{font:600 11px/1 "Helvetica Neue",Arial,sans-serif;color:var(--faint);
   border:1px solid var(--line2);border-radius:5px;padding:3px 5px;background:rgba(255,255,255,.03)}
 
@@ -341,18 +294,12 @@ body{
   *,*::before,*::after{animation:none!important;transition:none!important}
 }
 
-/* ===== print: handout met notities ===== */
+/* ===== print: handout ===== */
 @media print{
   body{overflow:visible;background:#fff;color:#111}
   .bg-aura,.veil,.controls,.deck-back,.deck-progress{display:none!important}
-  .notes{position:static;transform:none;max-height:none;box-shadow:none;background:#fff;border-top:1px solid #ccc}
   .stage{position:static;display:block;padding:0}
   .slide{display:block!important;max-width:none;page-break-after:always;padding:24px 0;border-bottom:1px solid #ccc;animation:none}
   .slide-title,.slide-kicker,.point .txt,.slide.title h1{color:#111}
   .point .ico,.slide.title .mark{border-color:#ccc;background:#f4f4f4}
-  .slide-notes{display:block;margin-top:16px;padding-top:12px;border-top:1px dashed #bbb;font-size:12.5px;line-height:1.5;color:#333}
-  .slide-notes .nlabel{font-weight:700;color:#111;display:block;margin-bottom:4px}
-  .slide-notes ul{margin:0;padding-left:18px}
-  .slide-notes li{margin:0 0 3px}
 }
-.slide-notes{display:none}

@@ -1,0 +1,30 @@
+<!-- Removed from slides.html. Three pieces. -->
+
+<!-- 1. Buttons in <nav class="controls">, after the divider. -->
+    <button type="button" id="notesBtn" aria-pressed="false" aria-label="Spreeknotities tonen" title="Notities (N)"><svg class="ico"><use href="#ic-notes"/></svg></button>
+    <button type="button" id="presentBtn" aria-label="Open notities in apart tabblad" title="Notities in apart tabblad (P)"><svg class="ico"><use href="#ic-external"/></svg></button>
+
+<!-- 2. The drawer, a sibling of <nav class="controls">. -->
+  <!-- ============ speaker notes-lade ============ -->
+  <aside class="notes" id="notes" aria-label="Spreeknotities">
+    <div class="notes-head">
+      <span class="lbl"><svg class="ico"><use href="#ic-notes"/></svg>Spreeknotities <span class="num" id="notesNum">· slide 1</span></span>
+      <div class="notes-actions">
+        <span class="notes-status" id="notesStatus" aria-live="polite"></span>
+        <button type="button" class="notes-btn" id="notesReset">Herstel origineel</button>
+        <button type="button" class="notes-close" id="notesClose" aria-label="Notities sluiten"><svg class="ico"><use href="#ic-close"/></svg></button>
+      </div>
+    </div>
+    <h2 id="notesTitle" class="notes-title"></h2>
+    <div class="notes-body">
+      <textarea id="notesEdit" class="notes-edit" spellcheck="true" aria-label="Spreeknotities bewerken" placeholder="Schrijf hier je spreeknotities…"></textarea>
+    </div>
+  </aside>
+
+<!-- 3. Per slide, as the last child of <section class="slide">.
+     One of these sat on every slide; the <li> items are in notes.md. -->
+      <div class="slide-notes"><span class="nlabel">Spreeknotities</span>
+        <ul>
+          <li>Dit is een werkmodel om AI in te zetten zonder ons oordeel weg te geven.</li>
+        </ul>
+      </div>
