@@ -72,7 +72,8 @@ body{
 /* ===== stage + slides ===== */
 /* flex + margin:auto centreert de slide, maar knipt de bovenkant niet af als een
    dichte slide op een laag scherm groter is dan de viewport (dan scrollt 'ie). */
-.stage{position:fixed;inset:0;z-index:2;display:flex;overflow-y:auto;padding:80px clamp(28px,4.5vw,104px) 112px}
+/* boven- en onderpadding gelijk, anders staat de slide 16px boven het midden */
+.stage{position:fixed;inset:0;z-index:2;display:flex;overflow-y:auto;padding:112px clamp(28px,4.5vw,104px)}
 .slide{
   display:none;width:100%;max-width:1320px;margin:auto;
 }
