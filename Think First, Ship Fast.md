@@ -265,6 +265,16 @@ Challenge, Problem statement, Solution en Outcome blijven de gedeelde taal voor 
 * een eerlijke keuze tussen Discovery en Delivery
 * ruimte voor handwerk en originaliteit, ook als dat meer tijd kost
 
+### Minder permissie, minder excuses
+
+Design werkte lang via overtuigen. We zagen de inschrijving vastlopen, we annoteerden de flow en we namen de supporttickets mee naar het overleg. Daarna ging de roadmap door zoals gepland. Dat kwam niet door onwil, maar doordat we een alternatief niet zelf konden maken.
+
+Die afstand tussen zien en maken wordt kleiner. Met AI maken we een alternatief werkend en nemen we het mee naar het gesprek, in plaats van het te beschrijven. Een werkend voorstel beantwoordt de vragen in de kamer zelf: mensen klikken erdoor, lopen tegen de haken aan en zien wat er verandert. Daarvoor hoeft niemand ons op ons woord te geloven.
+
+Dat kost ons ook een vertrouwd argument. "Ik had een beter idee, maar we kregen de ontwikkeltijd niet" houdt geen stand als we het zelf hadden kunnen maken. De lat gaat daarmee omhoog: wat we bouwen, moet de details overleven die we in een schets nog konden overslaan, zoals de uitzonderingen en de toegankelijkheid.
+
+Daarmee krijgt Ship Fast een concrete maat, namelijk de tijd tussen een oordeel van ons en een aanpassing die gebruikers merken. Het aantal schermen per week zegt daar weinig over.
+
 ### Wat dit van ons vraagt
 
 * **Eerlijk kiezen.** Niet ieder project heeft Discovery nodig. Tegelijk mag geen project zonder beoordeling naar Delivery. Dat vraagt om ervaring, een goede afweging en de moed om operationeel werk niet groter te maken dan nodig.
