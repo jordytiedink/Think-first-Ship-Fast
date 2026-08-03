@@ -160,6 +160,16 @@ body{
 .illo .lbl-mens{fill:#7fd9a0;font-weight:700}
 .illo .lbl-ai{fill:#c3b0ff;font-weight:700}
 
+/* ===== bronnenpaneel (verantwoordingsslide) ===== */
+.srcpanel{align-self:stretch;display:flex;flex-direction:column;justify-content:center}
+.srchead{margin:0 0 14px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint)}
+.srclist{margin:0;padding:0 0 0 22px;display:flex;flex-direction:column;gap:9px;
+  font-size:13px;line-height:1.45;color:var(--bodytext)}
+.srclist li::marker{color:var(--faint)}
+.srclist cite{font-style:normal;color:var(--ink)}
+.srcfoot{margin:16px 0 0;padding-top:12px;border-top:1px solid var(--line);
+  font-size:12px;line-height:1.4;color:var(--faint)}
+
 /* ===== DoD-checklist als paneel rechts (slide 8) ===== */
 .dod-panel{width:100%;border:1px solid var(--line);border-radius:18px;padding:22px 24px;background:rgba(255,255,255,.02)}
 .dod-head{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);margin:0 0 16px}
