@@ -162,10 +162,8 @@ body{
 
 /* ===== bronnenpaneel (verantwoordingsslide) ===== */
 .slide-split.top{align-items:start;margin-top:18px}
-/* De bovenkant van de letters lijnt uit met de titel van bron 01. Vast deel:
-   paneelrand, padding en de kop "Bronnen". Variabel deel: de lucht boven de
-   letters groeit mee met de tekstgrootte, dus die trekken we er weer af. */
-.slide-split.top .points{margin-top:calc(56.4px - .573 * clamp(18px,2.05vw,26px))}
+/* de linkerkolom start op dezelfde hoogte als de bovenrand van het bronnenpaneel */
+.slide-split.top .points{margin-top:0}
 .srcpanel{display:flex;flex-direction:column;
   border:1px solid var(--line);border-radius:18px;padding:22px 24px;
   background:linear-gradient(180deg,rgba(155,123,255,.05),rgba(255,255,255,.02))}
