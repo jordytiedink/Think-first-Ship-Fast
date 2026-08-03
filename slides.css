@@ -312,6 +312,16 @@ body{
   .ask .ico{border-color:rgba(255,125,51,.4);background:rgba(255,125,51,.12)}
 }
 
+/* ===== grote schermen: de hele slide schaalt mee =====
+   Zoom in plaats van losse fontgroottes, zodat tekst, panelen, iconen en
+   diagrammen in verhouding blijven. De hoogte-eis voorkomt dat een breed maar
+   laag scherm gaat scrollen. De slide blijft binnen de stage, want de breedte
+   is een percentage van de stage met een max-width erop. */
+@media(min-width:1700px) and (min-height:1000px){ .slide:not(.finale){zoom:1.15} }
+@media(min-width:2100px) and (min-height:1100px){ .slide:not(.finale){zoom:1.3} }
+@media(min-width:2600px) and (min-height:1250px){ .slide:not(.finale){zoom:1.5} }
+@media(min-width:3200px) and (min-height:1450px){ .slide:not(.finale){zoom:1.7} }
+
 /* ===== responsive ===== */
 @media(max-width:820px){
   .stage{padding:76px 22px 110px}
