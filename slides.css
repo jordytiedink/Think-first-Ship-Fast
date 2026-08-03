@@ -162,9 +162,13 @@ body{
 .illo .lbl-ai{fill:#c3b0ff;font-weight:700}
 
 /* ===== bronnenpaneel (verantwoordingsslide) ===== */
-/* linkertekst en bronnenpaneel staan op hun midden uitgelijnd */
-.slide-split.top{align-items:center;margin-top:18px}
-.slide-split.top .points{margin-top:0}
+/* Kop, label en punten vormen samen de linkerkolom. Die kolom staat op zijn
+   midden uitgelijnd met het bronnenpaneel; het geheel staat gecentreerd op de
+   pagina via de stage-padding. */
+.slide-split.top{align-items:center;margin-top:0}
+.split-lead{display:flex;flex-direction:column}
+.split-lead .slide-title{margin-bottom:0}
+.slide-split.top .points{margin-top:18px}
 .srcpanel{display:flex;flex-direction:column;
   border:1px solid var(--line);border-radius:18px;padding:22px 24px;
   background:linear-gradient(180deg,rgba(155,123,255,.05),rgba(255,255,255,.02))}
