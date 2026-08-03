@@ -161,8 +161,8 @@ body{
 .illo .lbl-ai{fill:#c3b0ff;font-weight:700}
 
 /* ===== bronnenpaneel (verantwoordingsslide) ===== */
-.slide-split.top{align-items:start;margin-top:18px}
-/* de linkerkolom start op dezelfde hoogte als de bovenrand van het bronnenpaneel */
+/* linkertekst en bronnenpaneel staan op hun midden uitgelijnd */
+.slide-split.top{align-items:center;margin-top:18px}
 .slide-split.top .points{margin-top:0}
 .srcpanel{display:flex;flex-direction:column;
   border:1px solid var(--line);border-radius:18px;padding:22px 24px;
