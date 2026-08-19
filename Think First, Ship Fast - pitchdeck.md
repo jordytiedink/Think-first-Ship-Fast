@@ -41,8 +41,7 @@ Volledige links staan op de one-pager, sectie Bronnen.
 
 * De kracht van AI zit in het **versnellen** van onze processen
 * Bij developers is dat het best zichtbaar, uitvoerend werk is **voorspelbaar en toetsbaar**
-* Met Copilot schreven ontwikkelaars een taak **55 procent sneller** af
-* Sneller blijft het doel, **alleen niet ten koste van een goede keuze**
+* Sneller blijft het doel, **alleen niet ten koste van een goede onderbouwde keuze**
 
 ---
 
@@ -60,9 +59,9 @@ Volledige links staan op de one-pager, sectie Bronnen.
 
 ## Slide 5 · 03 · De kern
 
-### Per project: hoeveel denkwerk vóór we bouwen?
+### Per project: hoeveel verkenning vóór we bouwen?
 
-* We kiezen **per project** hoeveel denkwerk nodig is voordat we bouwen
+* We kiezen **per project** hoeveel verkenning nodig is voordat we bouwen
 * Veel onzekerheid, grote impact of kans op onderscheid **vraagt Discovery**
 * Weinig onzekerheid en een duidelijke oplossing **vraagt Delivery**
 
@@ -84,7 +83,7 @@ Volledige links staan op de one-pager, sectie Bronnen.
 
 * De volledige **double diamond**, eerst breed verkennen en dan bewust kiezen
 * AI helpt met patronen, richtingen, tegenargumenten en concepten
-* Jij bepaalt het **echte probleem** en de verantwoorde keuze
+* Jij bepaalt het **echte probleem** en maakt de verantwoorde keuze
 
 ---
 
@@ -102,7 +101,7 @@ Volledige links staan op de one-pager, sectie Bronnen.
 
 ### Discovery is niet van de designteams
 
-* Goede ideeën kunnen overal vandaan komen, van engineering en support tot de klant zelf
+* Goede ideeën kunnen overal vandaan komen, van engineering en support tot de gebruiker zelf
 * Maar het bedenken en bepalen van wat er zou moeten bestaan, **dat neemt AI niet over**
 
 ---
