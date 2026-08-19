@@ -4,39 +4,39 @@
 
 ## Waarom dit model
 
-AI wordt vooral ingezet om sneller te bouwen. Veel uitvoerend ontwikkelwerk is voorspelbaar en toetsbaar, bijvoorbeeld op consistentie, toegankelijkheid, robuustheid, snelheid en wet- en regelgeving. Daar kan AI goed bij helpen. In een gecontroleerd experiment van GitHub schreven ontwikkelaars met Copilot een taak 55 procent sneller af, en McKinsey meet voor het schrijven van code een tijdwinst van 35 tot 45 procent.
+De kracht van AI zit in het versnellen van onze processen. Vooral bij developers is die versnelling goed zichtbaar. Veel uitvoerend ontwikkelwerk is voorspelbaar en toetsbaar, bijvoorbeeld op consistentie, toegankelijkheid, robuustheid, snelheid en wet- en regelgeving. Daar kan AI goed bij helpen. In een gecontroleerd experiment van GitHub schreven ontwikkelaars met Copilot een taak 55 procent sneller af, en McKinsey meet voor het schrijven van code een tijdwinst van 35 tot 45 procent.
 
-Maar productontwikkeling begint vóór het bouwen. Eerst bepalen we welk probleem we oplossen, voor wie we dat doen en welke richting daarbij past. Dat werk draait om onzekerheid, onvolledige informatie en botsende belangen. Het vraagt om menselijk oordeel.
+Maar productontwikkeling begint vóór het bouwen. We willen zo volledig en goed mogelijk de juiste feature bouwen. Daarvoor bepalen we eerst welk probleem we oplossen, voor wie we dat doen en welke richting daarbij past. Dat werk draait om onzekerheid, onvolledige informatie en botsende belangen. Het vraagt om menselijk oordeel.
 
-Hier ontstaat veel van de productwaarde. AI kan opties verkennen en patronen aanwijzen. Mensen kiezen de richting en blijven verantwoordelijk voor de gevolgen.
+Juist in die onzekerheid en onvolledigheid ontstaat veel van de productwaarde. AI kan opties verkennen en patronen aanwijzen, maar mensen kiezen de richting en blijven verantwoordelijk voor de gevolgen.
 
-Dat geldt voor design én development. Voordat er code ligt, zijn keuzes nodig over architectuur, techniek, schaalbaarheid, beveiliging en onderhoud. Ook die keuzes vragen om goed oordeel.
+Dat geldt voor design én development. Voordat er code ligt, zijn er keuzes nodig over architectuur, techniek, schaalbaarheid, beveiliging en onderhoud. Ook die keuzes vragen om goed menselijk oordeel.
 
-Goed werk vooraf bepaalt of we het juiste probleem oplossen en een passende richting kiezen:
+Goed onderzocht werk vóór het bouwen bepaalt of we het juiste probleem oplossen en een passende richting kiezen. Dat doen we door:
 
-* het probleem achter de oorspronkelijke vraag vinden
-* het probleem opnieuw formuleren en helder uitleggen
-* begrijpen hoe gebruikers denken en wat een oplossing met hen doet
-* scherpe keuzes maken en een toekomstbeeld neerzetten
-* bepalen wat we bewust niet bouwen
-* herkennen wat gebruikers accepteren en wat we daarom niet veranderen
-* kansen vinden die gebruikers niet zelf benoemen, maar wel waarderen
+* het probleem achter de oorspronkelijke vraag te vinden
+* het probleem opnieuw te formuleren en helder uit te leggen
+* te begrijpen hoe gebruikers denken en wat een oplossing met hen doet
+* scherpe keuzes te maken en een toekomstbeeld neer te zetten
+* te bepalen wat we bewust niet bouwen
+* te herkennen wat gebruikers accepteren en wat we daarom niet veranderen
+* kansen te vinden die gebruikers niet zelf benoemen, maar wel waarderen
 
-Dit werk vraagt om:
+AI kan daarbij helpen en versnellen, maar één ding levert het niet, en dat is een goed oordeel. Dat oordeel vraagt om:
 
 * originaliteit, smaak en merkgevoel
 * begrip van mensen, markt, cultuur en context
-* oordeel, timing en terughoudendheid
+* timing en terughoudendheid
 * aandacht voor uitzonderingen en kwetsbare situaties
 * echte betrokkenheid bij de gebruiker
 
-Kwaliteit is lastig te vatten en het is meer dan een mooi scherm. Katie Dill, hoofd design bij Stripe, laat zien dat vakmanschap en afwerking directe businesswaarde hebben.
+Een term die nu vaak valt, is ‘kwaliteit’. Kwaliteit is lastig te vatten en het is meer dan een mooi scherm.
 
-Zonder duidelijke richting valt AI terug op veelvoorkomende patronen. Het resultaat oogt degelijk, maar is vaak voorspelbaar en inwisselbaar. Het gevaar is niet dat AI alles slecht maakt, maar dat het middelmaat sneller en overtuigender maakt. Onderzoek in Science Advances (Doshi en Hauser, 2024) laat dit zien. Teksten met AI-hulp worden als creatiever beoordeeld, maar gaan onderling steeds meer op elkaar lijken.
+Zonder een duidelijke richting op kwaliteit valt AI terug op veelvoorkomende patronen. Het resultaat oogt degelijk, maar is vaak voorspelbaar en inwisselbaar. Het gevaar is niet dat AI alles slecht maakt, maar dat het de middelmaat sneller en overtuigender maakt. Onderzoek in Science Advances (Doshi en Hauser, 2024) laat dit zien. Teksten met AI-hulp worden als creatiever beoordeeld, maar gaan onderling steeds meer op elkaar lijken.
 
-Daarom bepalen we per project hoeveel denkwerk nodig is voordat we bouwen. Veel onzekerheid, grote gevolgen of een duidelijke kans op onderscheid vragen om Discovery. Bij weinig onzekerheid en een duidelijke oplossing volstaat Delivery.
+Daarom bepalen wij per project hoeveel denkwerk nodig is voordat we bouwen. Veel onzekerheid, grote gevolgen of een duidelijke kans op onderscheid vragen om een uitgebreide verkenning. Bij weinig onzekerheid en een duidelijke oplossing zetten we AI in om te versnellen.
 
-AI versnelt de uitvoering. Wij zetten ons oordeel in waar het verschil maakt. Dat is Think First, Ship Fast.
+AI versnelt de uitvoering. Wij zetten ons oordeel en onze verkenning in waar we het verschil maken. Dat is Think First, Ship Fast.
 
 ## Deel 1: het triage-model
 
@@ -44,17 +44,17 @@ AI versnelt de uitvoering. Wij zetten ons oordeel in waar het verschil maakt. Da
 
 ### Kernprincipe
 
-AI verkort de uitvoering, maar neemt geen verantwoordelijkheid over. Wij bepalen het probleem, kiezen de richting en bewaken de kwaliteit.
+AI verkort en versnelt de uitvoering, maar neemt is niet verantwoordelijkheid voor het resultaat. Wij bepalen het probleem, kiezen de richting en bewaken de kwaliteit.
 
 AI ondersteunt ons bij onderzoek, alternatieven, prototypes en uitvoering. De productbeslissing blijft van ons.
 
-Daarom krijgt niet elk project hetzelfde proces. Een triage aan het begin bepaalt hoeveel Discovery nodig is en wanneer we naar Delivery gaan. De triple diamond blijft onze gedeelde kaart. De route erdoorheen verschilt per project.
+Daarom krijgt niet elk project hetzelfde proces zoals we dat nu wel doen. Een triage aan het begin bepaalt hoeveel Discovery nodig is en wanneer we naar Delivery gaan. De triple diamond blijft onze gedeelde kaart. De route erdoorheen verschilt per project.
 
 ### De triage
 
-Elk project begint met een intake. Dat is geen volledige Discovery, maar een lichte eerste stap. We brengen de Challenge scherp in beeld, kijken naar wat we al weten, en doen bijvoorbeeld een expert review en een korte blik op de markt. Het team legt vast:
+Elk project begint met een intake. Dat is geen volledige Discovery, maar een verkennende eerste stap. We brengen het probleem scherp in beeld, kijken naar wat we al weten, en doen bijvoorbeeld een expert review en een korte blik op de markt. Het team legt vast:
 
-* hoe de Challenge nu is beschreven
+* hoe het probleem nu is beschreven
 * voor wie het probleem bestaat
 * wat de gebruiker of organisatie wil bereiken
 * wat we al weten en wat nog onzeker is
@@ -63,13 +63,13 @@ Elk project begint met een intake. Dat is geen volledige Discovery, maar een lic
 
 Zo staat er altijd een basis voordat we kiezen. De intake doen we bij elk project, ook bij het snelste werk.
 
-De triage vindt direct na de Challenge plaats. UX, PO en development doen dit samen. Het team legt de gekozen route en de onderbouwing vast.
+De triage vindt direct na de dit vraagstuk plaats. UX, PO en development doen dit samen. Het team legt de gekozen route en de onderbouwing vast.
 
-Daarna bepaalt de triage de route. De vraag is niet óf we nadenken, want de intake doen we altijd. De vraag is hoeveel Discovery er bovenop moet.
+Daarna bepaalt de triage de route. De vraag is niet óf we nadenken, want de intake doen we altijd. De vraag is hoeveel extra verkenning en onderzoek heeft het nog extra nodig.
 
 **Hoeveel Discovery hebben we nodig voordat we bouwen?**
 
-Zie het als een schuif, niet als twee deuren. De schuif kan helemaal naar links staan, maar nooit op nul. Bij veel zekerheid blijft het bij de intake en kunnen we snel bouwen. Bij veel onzekerheid of grote impact gaan we de volledige Discovery in. Delivery betekent nooit dat we nadenken overslaan, maar dat de intake genoeg was om te bouwen.
+Zie het als een schuif. De schuif kan helemaal naar links staan, maar nooit op nul. Bij veel zekerheid blijft het bij de intake en kunnen we snel bouwen. Bij veel onzekerheid of bij een grote impact op de gebruiker gaan we de volledige Discovery in. Delivery betekent nooit dat we het nadenken overslaan, maar dat de intake genoeg was om te bouwen.
 
 Een project kan later opnieuw door de triage gaan. Dat gebeurt zodra nieuwe informatie de onzekerheid, impact of risico’s vergroot.
 
@@ -184,7 +184,7 @@ Een oplevering is pas klaar als alle punten zijn afgevinkt.
 * [ ] **Taal.** Alle teksten in de interface zijn geschreven op B1-niveau, neutraal en inclusief. Dit geldt ook voor knoppen, foutmeldingen, lege schermen en hulpuitleg.
 * [ ] **Volledigheid.** Alle belangrijke situaties zijn uitgewerkt, zoals leeg, laden, fout, succes en lange of afwijkende inhoud. Bij instelbare schermen zijn ook de standaardkeuzes en onwaarschijnlijke combinaties gecontroleerd. We hoeven niet iedere theoretische situatie uit te werken.
 * [ ] **Consistentie.** Gedrag, interactie en woorden sluiten aan op vergelijkbare plekken in het product. De gebruiker hoeft een bekende taak niet opnieuw te leren.
-* [ ] **Productcontext.** De oplossing past bij de rol die ze binnen het product en het bredere proces heeft. We wijken alleen af als daar een duidelijke reden voor is.
+* [ ] **Productcontext.** De oplossing past bij Dede rol die ze binnen het product en het bredere proces heeft. We wijken alleen af als daar een duidelijke reden voor is.
 * [ ] **Goed genoeg.** Het probleem is opgelost en de gebruiker kan de taak uitvoeren. De kwaliteits- en veiligheidsrisico’s zijn aanvaardbaar. De checklist is compleet. Extra verfijning zonder aantoonbare gebruikerswaarde is niet nodig.
 * [ ] **Doorlopende controle bij AI-functies.** Gebruikt de gebruiker zelf een AI-functie? Dan is ‘klaar’ geen eenmalig moment. Voor de livegang is duidelijk hoe we veranderingen, fouten en mogelijke schade signaleren. Ook weten we wie ingrijpt en hoe we de functie bijsturen.
 
@@ -276,13 +276,15 @@ Challenge, Problem statement, Solution en Outcome blijven de gedeelde taal voor 
 
 ### Wat we opleveren verandert
 
-Tot nu toe schreven we onze documentatie vooral voor mensen. Persona’s, journey maps, onderzoeksrapporten en wireframes met toelichting hielpen collega’s om de context te begrijpen en keuzes te maken.
+Onze deliverables zijn nu ook invoer voor AI. Tot nu toe schreven we ze voor mensen. Persona’s, journey maps, onderzoeksrapporten en wireframes met toelichting hielpen collega’s om de context te begrijpen en keuzes te maken. Nu AI steeds vaker meebouwt, leest een model dezelfde stukken.
 
-Nu AI steeds vaker meebouwt, wordt onze documentatie ook invoer voor een model. Dan moet de kennis onder het ontwerp expliciet zijn. Een stockfoto in een persona draagt weinig bruikbare context over. De regel ‘Gebruikers haken af als we vragen om informatie die ze niet bij de hand hebben’ doet dat wel. AI kan daar tijdens het maken rekening mee houden.
+Dan moet de kennis onder het ontwerp expliciet zijn. Een stockfoto in een persona draagt weinig bruikbare context over. De regel ‘Gebruikers haken af als we vragen om informatie die ze niet bij de hand hebben’ doet dat wel. AI kan daar tijdens het maken rekening mee houden.
 
-Daarom moet onze ontwerpkennis vindbaar, actueel en leesbaar zijn voor mensen én AI. Google Labs publiceerde op 21 april 2026 de open specificatie DESIGN.md. Dit bestand combineert machineleesbare designtokens met uitleg over de bedoeling en toepassing ervan. Voor FortyTwo kunnen we hetzelfde principe gebruiken. Onderzoeksinzichten, interactieafspraken, onze begrippenlijst en relevante gebruikerscontext horen daar ook bij.
+FortyTwo is de plek om die kennis te bewaren, want ons design system is al machineleesbaar. Tokens en componentregels staan in code, dus AI leest ze nu al. Leggen we onderzoeksinzichten, interactieafspraken, onze begrippenlijst en relevante gebruikerscontext ergens anders vast, dan vindt een model ze niet. Google Labs werkte hetzelfde principe uit in de open specificatie DESIGN.md, een bestand dat machineleesbare designtokens combineert met uitleg over de bedoeling en toepassing ervan.
 
-Dit vraagt om doorlopend onderhoud. De context verandert mee met het product en met wat we leren van AI-uitvoer. Het resultaat meten we aan de kwaliteit van wat ermee wordt gemaakt. Leidt de context tot betere oplossingen die passen bij FortyTwo en onze gebruikers? Dan werkt ze.
+Dit vraagt doorlopend onderhoud. De kennis verandert mee met het product en met wat AI aflevert.
+
+Of het werkt, zie je aan wat AI ermee maakt. Haalt dat werk de kwaliteitslat in Delivery, dan is de kennis eronder goed genoeg.
 
 ### Voor het UX-team
 
@@ -295,6 +297,7 @@ Dit werkt alleen als de organisatie meebeweegt. Als we op een nieuwe manier werk
 
 ## Deel 2: de strategietemplate
 
+<!-- sjabloon-sync: bron ux-strategie/references/strategie-sjabloon.md, versie 1.1 -->
 *De strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen.*
 
 Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4’s.
@@ -318,7 +321,7 @@ De strategie is zelf ook zo'n contextbestand. Je schrijft haar voor het team en 
 
 ### Gebruikersdoelen
 
-*Beschrijf kort wie de gebruiker is, wat die wil bereiken en waar die nu vastloopt. Beperk dit tot maximaal een halve pagina. Benoem welke bronnen je gebruikt en wat nog onzeker is. Belangrijke aannames moeten herleidbaar zijn naar een bron of gesprek.*
+*Beschrijf kort wie de gebruiker is, wat die wil bereiken en waar die nu vastloopt. Kies één hoofdgebruiker en benoem voor wie deze strategie niet is. Een strategie voor iedereen stuurt niets. Beperk dit tot maximaal een halve pagina. Benoem welke bronnen je gebruikt en wat nog onzeker is. Belangrijke aannames moeten herleidbaar zijn naar een bron of gesprek.*
 
 ...
 
@@ -342,13 +345,13 @@ De strategie is zelf ook zo'n contextbestand. Je schrijft haar voor het team en 
 
 ### Obstakels en randvoorwaarden
 
-*Beschrijf wat de aanpak beïnvloedt of begrenst. Denk aan technische beperkingen, wettelijke eisen, gevoeligheden en uitzonderlijke situaties. Wees concreet over wat lastig is.*
+*Beschrijf wat de aanpak beïnvloedt of begrenst. Denk aan technische beperkingen, wettelijke eisen, gevoeligheden en uitzonderlijke situaties. Neem ook de haalbaarheid mee: de tijd, de mensen en de invloed die je hebt. Wees concreet over wat lastig is.*
 
 * [Obstakel of randvoorwaarde.]
 
 ### Strategische prioriteiten
 
-*Bepaal één tot drie thema’s waarop dit initiatief inzet. Deze prioriteiten gelden voor dit initiatief en staan los van de duurzame principes. Geef iedere prioriteit een duidelijke titel, een korte onderbouwing, een UX-outcome, succescriteria en concrete initiatieven.*
+*Bepaal één tot drie thema’s waarop dit initiatief inzet. Deze prioriteiten gelden voor dit initiatief en staan los van de duurzame principes. Geef iedere prioriteit een duidelijke titel, een korte onderbouwing, een UX-outcome, de waarde voor de organisatie, succescriteria en concrete initiatieven. Benoem daarna wat je niet doet.*
 
 #### [Titel van de prioriteit]
 
@@ -358,6 +361,10 @@ De strategie is zelf ook zo'n contextbestand. Je schrijft haar voor het team en 
 
 *Beschrijf wat de gebruiker straks ervaart en anders kan doen. Bijvoorbeeld ‘De beheerder twijfelt niet bij het instellen van ...’.*
 
+**Waarde voor de organisatie**
+
+*Benoem in één zin welk bedrijfsdoel of welk risico hieraan hangt. Zonder die koppeling kan de prioriteit niet concurreren om tijd.*
+
 **Succescriteria**
 
 *Beschrijf waaraan je ziet dat het probleem beter wordt opgelost. Gebruik waar mogelijk observeerbaar gedrag, feedback of andere concrete signalen.*
@@ -366,11 +373,18 @@ De strategie is zelf ook zo'n contextbestand. Je schrijft haar voor het team en 
 
 * [Concrete actie of oplossing die bijdraagt aan deze prioriteit.]
 
+**Wat we niet doen**
+
+*Benoem één tot drie dingen die je in deze periode bewust laat liggen, met per punt de reden. Dit maakt de prioriteiten pas echt een keuze.*
+
+* [Wat je laat liggen.] [Waarom.]
+
 ### Hoe kunnen we?
 
 *Zet de kernproblemen om in open vragen die ruimte geven aan verschillende oplossingen. Begin iedere vraag met ‘Hoe kunnen we ...’. Maak de vraag breed genoeg om alternatieven te verkennen en scherp genoeg om richting te geven.*
 
 * hoe kunnen we [kans]?
+<!-- /sjabloon-sync -->
 
 ## Bronnen
 

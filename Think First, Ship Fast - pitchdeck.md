@@ -1,336 +1,249 @@
 # Think First, Ship Fast: pitchdeck
 
-*Zestien slides voor een pitch aan de UX-lead en het UX-team. De tekst op de slides is kort. De spreeknotities zijn bullets om uit te praten, niet om voor te lezen.*
+*De tekst van `slides.html`, slide voor slide. De presentatie is leidend, dit bestand volgt haar 1 op 1.*
 
 ---
 
-## Slide 1: titel
+## Slide 1 · titel
 
-**Op de slide**
+### Think First, Ship Fast
 
-# Think First, Ship Fast
-
-*Sneller bouwen zonder ons oordeel uit te besteden.*
-
-[Naam] · [datum]
-
-**Spreeknotities**
-
-- AI versnelt een groot deel van ons werk.
-- De vraag is hoe we die snelheid gebruiken zonder ons oordeel uit te besteden.
-- Met dit model kiezen we per project hoeveel onderzoek en denkwerk nodig is, daarna zetten we AI gericht in.
+Ons werkmodel om met AI te werken
 
 ---
 
-## Slide 2: een mooi scherm is nog geen goed product
+## Slide 2 · Verantwoording
 
-**Op de slide**
+### Gemaakt met AI, geregisseerd door mij
 
-* AI maakt snel iets dat geloofwaardig oogt.
-* De buitenkant zegt weinig over de gekozen richting.
-* De moeilijkste vraag blijft of we het juiste bouwen.
+* Ik heb **de basis van de teksten zelf geschreven**
+* AI heeft aangevuld en aangescherpt, ik heb daarna **de regie gehouden**
 
-**Spreeknotities**
+**Bronnen (9)**
 
-- Een verzorgd scherm was ooit een teken van tijd, aandacht en expertise, en die indruk wekt AI inmiddels snel.
-- Een scherm kan er goed uitzien en werken terwijl het het verkeerde probleem oplost.
-- Katie Dill beschrijft productkwaliteit als een huis, de fundering, structuur en werking komen vóór de afwerking. [Source](https://stripe.com/sessions/2024/craft-and-beauty-the-business-value-of-form-in-function)
-- Visuele kwaliteit blijft belangrijk, maar bewijst niet dat we de juiste keuze maakten.
-- Het grootste risico, een aannemelijke oplossing voelt al snel als een goede keuze.
+1. *The Impact of AI on Developer Productivity* · GitHub · 2023
+2. *Unleashing developer productivity with generative AI* · McKinsey · 2023
+3. *Generative AI enhances individual creativity but reduces collective diversity* · Doshi en Hauser, Science Advances · 2024
+4. *Accelerate State of DevOps Report* · Google DORA · 2024
+5. *2× – nine months later* · Fin, Intercom · 2026
+6. *Developer Survey: AI* · Stack Overflow · 2024
+7. *Craft and beauty: the business value of form in function* · Katie Dill, Stripe · 2024
+8. *UX-Context Design* · Tony Alicea, Nielsen Norman Group · 2026
+9. *DESIGN.md* · Google Labs · 2026
 
----
-
-## Slide 3: snelheid was altijd al het doel
-
-**Op de slide**
-
-* We willen ons werk zo snel mogelijk bij gebruikers krijgen.
-* We maken bewust keuzes in scope en afwerking.
-* Snelheid heeft pas waarde als de richting klopt.
-
-**Spreeknotities**
-
-- Ik pleit niet voor langere trajecten of meer overleg.
-- Designers willen hun werk altijd snel bij gebruikers krijgen, zo leren we wat werkt en wat nog niet klopt.
-- Bijna niets van mijn werk staat precies zo in productie als ik het voor me zag, we korten, kiezen en sturen bij.
-- AI geeft extra snelheid, die helpt zodra de richting klopt.
-- Te vroeg zet die snelheid je vast op het eerste redelijke idee.
+Volledige links staan op de one-pager, sectie Bronnen.
 
 ---
 
-## Slide 4: AI versnelt vooral Delivery
+## Slide 3 · 01 · Sneller
 
-**Op de slide**
+### AI versnelt vooral de uitvoering
 
-**Discovery**
-
-* Bepalen wat er moet bestaan.
-* Richting kiezen terwijl nog niet alles duidelijk is.
-
-**Delivery**
-
-* Een gekozen oplossing werkend maken.
-* Herhaalbaar werk versnellen.
-
-**AI versnelt nu vooral Delivery.**
-
-**Spreeknotities**
-
-- In AI-gesprekken klinkt software bouwen vaak als één activiteit, in de praktijk zijn het twee soorten werk.
-- In Discovery bepalen we wat er moet bestaan en waarom.
-- In Delivery maken we een gekozen richting werkend, betrouwbaar en bruikbaar.
-- Het overgrote deel van developers gebruikt AI of wil dat gaan doen, en de winst zit vooral aan de Delivery-kant.
-- Maar snelheid en output zeggen op zichzelf niet of de oorspronkelijke productkeuze goed was.
+* De kracht van AI zit in het **versnellen** van onze processen
+* Bij developers is dat het best zichtbaar, uitvoerend werk is **voorspelbaar en toetsbaar**
+* Met Copilot schreven ontwikkelaars een taak **55 procent sneller** af
+* Sneller blijft het doel, **alleen niet ten koste van een goede keuze**
 
 ---
 
-## Slide 5: het model in één keuze
+## Slide 4 · 02 · Twee kanten
 
-**Op de slide**
+### AI-first denkt alleen aan Delivery
 
-**Per project bepalen we hoeveel denkwerk nodig is voordat we bouwen.**
-
-* Discovery bij onzekerheid, grote impact of ruimte voor onderscheid.
-* Delivery bij een duidelijke richting en beperkte risico’s.
-
-**Spreeknotities**
-
-- Dit is het hele model, voor ieder project kiezen we bewust een route.
-- Onzeker probleem of grote gevolgen, dan nemen we ruimte voor Discovery.
-- Bekend patroon en herstelbare fouten, dan gaan we snel naar Delivery.
-- Goed genoeg is geen lagere kwaliteitslat, we tuigen alleen geen onderzoek op voor een bekend en herstelbaar probleem.
+* Het AI-first-denken slaat "software bouwen" plat tot **één activiteit**
+* Er zijn eigenlijk **twee manieren** van werk maken
+* **Discovery**, bepalen wat er zou moeten bestaan
+* **Delivery**, het efficiënt maken zodra de beslissing vaststaat
+* Het AI-first-denken leunt scheef naar **Delivery**
 
 ---
 
-## Slide 6: de triage
+## Slide 5 · 03 · De kern
 
-**Op de slide**
+### Per project: hoeveel denkwerk vóór we bouwen?
 
-* We controleren eerst of er iets te kiezen valt en of het verantwoord is.
-* We wegen daarna onzekerheid, impact en onderscheid.
-* De uitkomst is Discovery, Delivery of bewust niet bouwen.
-* UX, PO en development leggen de keuze samen vast.
-
-**Spreeknotities**
-
-- Het kernteam legt eerst in een paar regels de basis vast, welk probleem, wie ervaart het, wat weten we en welke risico's.
-- Dan twee checks, valt er nog iets te kiezen en is de oplossing verantwoord.
-- Daarna wegen we onzekerheid, impact en onderscheid.
-- Geen automatische scorekaart, één groot risico kan al genoeg zijn voor Discovery.
-- Verandert de situatie, dan gaat het project opnieuw door de triage.
-- Voorbeeld digitaal inschrijven, we wilden AI-vertalingen versnellen maar voor ouders met minder Nederlands kan een fout direct gevolgen hebben, dus begon de keuze bij verantwoordelijkheid.
+* We kiezen **per project** hoeveel denkwerk nodig is voordat we bouwen
+* Veel onzekerheid, grote impact of kans op onderscheid **vraagt Discovery**
+* Weinig onzekerheid en een duidelijke oplossing **vraagt Delivery**
 
 ---
 
-## Slide 7: de strategie is de meetlat
+## Slide 6 · 04 · De triage
 
-**Op de slide**
+### Eén vraag bepaalt de route
 
-* Eén tot twee A4’s met visie, principes en prioriteiten.
-* Drie tot vijf principes sturen keuzes over projecten heen.
-* Dezelfde context helpt de triage en stuurt AI.
-
-**Spreeknotities**
-
-- De triage rust niet op gevoel alleen, een korte strategie beschrijft wat een goede ervaring is.
-- De principes zijn het hart, bijvoorbeeld dat een ouder altijd begrijpt wat er hierna gebeurt.
-- Zo'n regel helpt bij een betaalherinnering, een inschrijving en een AI-vertaling.
-- Het standpunt schrijven we zelf, AI ordent bronnen en scherpt formuleringen aan.
-- Zonder onze context kiest een model al snel de meest aannemelijke middenweg.
+* Eén vraag bij de start van een project: **Discovery of alleen Delivery?**
+* Check één: **valt er nog iets te kiezen**, of ligt de oplossing al vast?
+* Check twee: is dit **verantwoord** om zonder onderzoek te bouwen?
 
 ---
 
-## Slide 8: Discovery, wij sturen
+## Slide 7 · 05 · Discovery
 
-**Op de slide**
+### Discovery, jij stuurt de AI
 
-* We verkennen breed voordat we kiezen.
-* AI ordent bronnen, zoekt tegenargumenten en maakt richtingen zichtbaar.
-* Het resultaat is een onderbouwd besluit.
-
-**Spreeknotities**
-
-- In Discovery is AI je onderzoeksassistent en sparringpartner, die groepeert tickets en maakt conceptrichtingen.
-- Elke belangrijke conclusie blijft herleidbaar naar een bron, een AI-patroon is een werkhypothese.
-- Wij bepalen welk probleem centraal staat, welke richting past en wat we bewust niet bouwen.
-- Het resultaat is een besluit met een standpunt, een scherm helpt om dat te toetsen maar is niet het eindresultaat.
+* De volledige **double diamond**, eerst breed verkennen en dan bewust kiezen
+* AI helpt met patronen, richtingen, tegenargumenten en concepten
+* Jij bepaalt het **echte probleem** en de verantwoorde keuze
 
 ---
 
-## Slide 9: Delivery, wij bewaken
+## Slide 8 · 06 · Signalen
 
-**Op de slide**
+### Drie signalen wijzen naar Discovery
 
-* AI maakt vroeg een werkende versie.
-* We controleren gedrag, inhoud, uitzonderingen en productcontext.
-* We prototypen in code met echte componenten en realistische inhoud.
-* Development bepaalt welke code veilig herbruikbaar is.
-
-**Spreeknotities**
-
-- Delivery begint zodra de richting duidelijk genoeg is, we maken vroeg een werkende versie.
-- We toetsen met inhoud die lijkt op wat gebruikers echt tegenkomen.
-- Figma blijft nuttig om te verkennen, in Delivery laat code eerder zien of gedrag en uitzonderingen standhouden.
-- Het prototype hoeft niet productieklaar, maar sluit wel aan op FortyTwo en de echte productcontext.
-- Development bepaalt welke code veilig en onderhoudbaar genoeg is om te hergebruiken.
-- De overdracht wordt lichter, want gedrag en inhoud zijn al zichtbaar en bespreekbaar.
+* **Onzekerheid**: weten we echt wat het probleem is, of gokken we?
+* **Impact**: hoeveel gebruikers raakt dit, en hoe erg is het als we missen?
+* **Onderscheid**: valt hier iets te winnen wat ons echt beter maakt?
 
 ---
 
-## Slide 10: de kwaliteitslat in Delivery
+## Slide 9 · 07 · Herkomst
 
-**Op de slide**
+### Discovery is niet van de designteams
 
-* We gebruiken vanaf de eerste versie dezelfde checklist.
-* We controleren FortyTwo, B1-taal, belangrijke situaties en consistentie.
-* Goed genoeg betekent dat het probleem is opgelost en de risico’s aanvaardbaar zijn.
-* Bij AI-functies regelen we controle en eigenaarschap vóór de livegang.
-
-**Spreeknotities**
-
-- De kwaliteitslat begint bij de eerste versie, zo zitten de eisen al in de opdracht en repareren we niet aan het eind.
-- Bijna-kloppende AI-output en het herstellen ervan kosten tijd, dus controle hoort vanaf het begin bij het werk.
-- UX beoordeelt de ervaring, taal en toegankelijkheid.
-- Development bewaakt de juistheid, veiligheid en onderhoudbaarheid van de code.
-- Het team blijft verantwoordelijk voor de productkeuze en de gevolgen.
-- Terugkerende fouten verwerken we in onze instructies en in FortyTwo, zo hoeft de volgende versie minder vaak terug.
-- Bij een AI-functie voor gebruikers regelen we vóór livegang hoe we fouten signaleren, wie ingrijpt en wanneer we bijsturen.
+* Goede ideeën kunnen overal vandaan komen, van engineering en support tot de klant zelf
+* Maar het bedenken en bepalen van wat er zou moeten bestaan, **dat neemt AI niet over**
 
 ---
 
-## Slide 11: de triple diamond blijft de kaart
+## Slide 10 · 08 · Delivery
 
-**Op de slide**
+### Delivery, jij bewaakt de AI
 
-* Challenge → triage → Problem statement → Solution → Outcome.
-* De triage bepaalt hoeveel van de route nodig is.
-* Onderzoek en resultaten voeden iedere volgende triage.
-
-**Spreeknotities**
-
-- We houden de gedeelde taal van de triple diamond.
-- Challenge, Problem statement, Solution en Outcome blijven de momenten waarop we afstemmen met PO en development.
-- De route ertussen wordt minder vast, operationeel werk kan vrijwel direct naar Delivery.
-- Een vraagstuk met veel onzekerheid doorloopt de volledige Discovery.
-- Nieuwe informatie kan een project terugsturen naar de triage, zo ontstaat een cyclus en geen rechte lijn.
-- Werk komt uit twee richtingen, de backlog van de PO en kansen die we zelf uit onderzoek en data zien.
+* AI bouwt een werkende versie, jij **controleert en beslist**
+* We prototypen in code om een besluit te toetsen **voor het naar dev gaat**
+* Het prototype is **bruikbaar richting productie**, geen wegwerp-HTML
+* Oplevering is een werkend prototype met een **lichte overdracht**
 
 ---
 
-## Slide 12: wat dit van ons vraagt
+## Slide 11 · 09 · Kwaliteitslat
 
-**Op de slide**
+### AI maakt, wij bewaken
 
-* We kiezen eerlijk welke route past.
-* We kunnen met AI prototypen en begrijpen code op hoofdlijnen.
-* We vergelijken meerdere richtingen voordat we kiezen.
-* We bewaken de kwaliteit, ook als iemand anders het scherm maakt.
+* AI maakt, wij **bewaken de kwaliteit** en nemen het besluit
+* Elke oplevering langs dezelfde checklist, **al vanaf versie 1**
 
-**Spreeknotities**
+**Definition of done**
 
-- We hoeven geen engineer te worden, wel genoeg technisch begrip om AI-uitvoer te beoordelen en met development te praten.
-- Het is een spectrum, de één gaat verder in code, de ander in onderzoek, vakmanschap of strategie.
-- AI geeft snel een eerste aannemelijke oplossing, dus in Discovery proberen we bewust meer dan één richting.
-- PO en development kunnen ook schermen maken, onze rol wordt breder, we zetten de standaard en helpen kwaliteit vasthouden.
-- Het model leunt op ervaring, koppel junioren aan senioren en geef ze ruimte om breed te proberen.
-
----
-
-## Slide 13: wat we loslaten en blijven bewaken
-
-**Op de slide**
-
-**We laten los**
-
-* Hi-fi-schermen als standaard eindresultaat.
-* Zware overdrachten als een prototype het verhaal al vertelt.
-* Eén proces voor ieder project.
-
-**We blijven bewaken**
-
-* Meerdere richtingen wanneer de keuze daarom vraagt.
-* Een vaste kwaliteitslat en een duidelijke onderbouwing.
-* Menselijke verantwoordelijkheid voor de gevolgen.
-
-**Spreeknotities**
-
-- Hi-fi-schermen blijven bruikbaar als ze de snelste manier zijn om iets te onderzoeken of uit te leggen.
-- Ze zijn alleen niet meer automatisch het belangrijkste resultaat.
-- Een werkend prototype draagt een groot deel van de overdracht, dus minder tijd aan documenten die het ontwerp beschrijven.
-- De snelheid verandert onze werkwijze, de kwaliteitslat blijft staan.
-- Ook handwerk houdt een plek als dat de beste oplossing oplevert.
+* FortyTwo
+* Taal (B1)
+* Volledigheid
+* Consistentie
+* Productcontext
+* Goed genoeg
 
 ---
 
-## Slide 14: oordeel wordt waardevoller
+## Slide 12 · 10 · Itereren
 
-**Op de slide**
+### Sneller leveren, vaker itereren
 
-* Uitvoering wordt sneller en makkelijker te kopiëren.
-* Het verschil ontstaat in de keuzes vóór en tijdens het bouwen.
-* Ons doel is sneller bepalen wat de moeite waard is om te maken.
-
-**Spreeknotities**
-
-- Als ieder team snel een geloofwaardige interface maakt, onderscheidt de hoeveelheid output ons steeds minder.
-- Ons voordeel zit in begrijpen wat mensen nodig hebben, scherp kiezen en op tijd stoppen.
-- Dat is precies het werk waarin ontwerpkennis telt.
-- De kans zit aan het begin en tijdens de uitvoering.
-- Eerst maken we van een vage vraag een helder probleem, daarna voorkomen we dat snelheid slordigheid wordt.
+* Sneller leveren is het doel, maar niet met de belofte dat het **in één keer klopt**
+* We zetten iets neer, meten wat het doet, en verbeteren het in een **volgende ronde**
+* Elke iteratie verhoogt de **zekerheid over de kwaliteit**
 
 ---
 
-## Slide 15: Discovery is teamwerk
+## Slide 13 · 11 · Voorbeeld
 
-**Op de slide**
+### Bij digitaal inschrijven sloegen we de afweging over
 
-* Ideeën kunnen overal in en rond het team ontstaan.
-* UX helpt om ze scherp te maken, te vergelijken en te onderbouwen.
-* AI vergroot de mogelijkheden. Mensen kiezen wat de moeite waard is.
-
-**Spreeknotities**
-
-- Discovery is van het hele team, een sterk idee kan van development, support, research of een gebruiker komen.
-- UX brengt de methoden en maakt het probleem, het bewijs en de gevolgen zichtbaar.
-- Onze rol verschuift van elk scherm zelf maken naar het team helpen kiezen en de ervaring bewaken.
-- AI laat meer richtingen zien dan we zelf in een uur bedenken.
-- De keuze welke richting waardevol en verantwoord is, blijft bij mensen.
+* Ouders die de taal niet spreken, schrijven hun kind in via dit formulier
+* We zetten AI in voor de vertalingen, want **dat kon sneller**
+* Onzekerheid, impact en verantwoordelijkheid zijn **nooit tegen elkaar afgewogen**
+* Daar ging het mis, en **daarom bestaat de triage**
 
 ---
 
-## Slide 16: mijn voorstel
+## Slide 14 · 12 · Strategie
 
-**Op de slide**
+### Zonder principes is de triage een gevoel
 
-**Een pilot van zes weken**
-
-* Drie lopende projecten.
-* Eén duidelijke Delivery-case, één Discovery-case en één twijfelgeval.
-* Beoordeling op routekeuze, doorlooptijd, reviewwerk en gebruikerssignalen.
-* Na zes weken besluiten we wat blijft en wat anders moet.
-
-# Think First, Ship Fast
-
-**Spreeknotities**
-
-- Mijn voorstel is klein, dit model zes weken op drie lopende projecten, geen apart programma.
-- Bij elk project leggen we de triage, route en onderbouwing vast.
-- Na zes weken kijken we met UX, PO en development naar doorlooptijd, reviewwerk en de kwaliteit van de keuze.
-- Waar al iets live staat, nemen we gebruikerssignalen mee.
-- Het aantal prompts of schermen zegt me weinig, ik wil weten of we sneller tot een goede keuze kwamen en of Delivery minder overdracht vroeg.
-- Werkt het, dan scherpen we aan met echte voorbeelden, werkt het niet, dan passen we aan of stoppen we.
+* Onder de triage ligt een korte strategie, **één tot twee A4**
+* De **principes** zijn het hart, drie tot vijf vuistregels waaraan je beslissingen toetst
+* Ze helpen bij twijfel in de triage en geven **AI de juiste richting**
+* Het invullen is zelf **Discovery-werk**, jij leidt, AI helpt hooguit mee
 
 ---
 
-## Keuzes voor de uitwerking
+## Slide 15 · 13 · De route
 
-* Gebruik op slide 11 het schema `triagemodel_werkstructuur.svg` als hoofdbeeld.
-* Geef de volledige strategie mee als hand-out. Zet de hele template niet in het deck.
-* Laat context switching buiten deze pitch. Houd tijdens de pilot wel bij of Discovery en Delivery apart gepland moeten worden.
-* Vul vóór de pitch je naam, datum en de drie voorgestelde pilotprojecten in.
+### De triage knipt de route, niet de mijlpalen
 
-## Bronnen
+* De triage bepaalt de **route ertussen**, niet elk project doorloopt hetzelfde proces
+* **Research loopt door** en voedt elke nieuwe triage
+* De outcome komt terug bij de triage, zo is het een **doorlopende cyclus**
 
-* Katie Dill over de lagen van productkwaliteit en de waarde van vakmanschap. [Source](https://stripe.com/sessions/2024/craft-and-beauty-the-business-value-of-form-in-function)
+---
 
-*Losse cijfers zijn bewust weggelaten. De pitch leunt op de redenering, niet op betwistbare getallen. Wil je toch onderbouwing met een concrete case, dan is het Fin-verhaal (2x productiviteit in negen maanden) beschikbaar om terug te zetten.*
+## Slide 16 · 14 · Als individu
+
+### Wat dit van ons vraagt
+
+* **Eerlijk durven kiezen** welke route een project verdient
+* **Mee kunnen bouwen** en prototypen, en op hoofdlijnen snappen wat de code doet
+* Bewust **meerdere richtingen** proberen voor we kiezen
+
+---
+
+## Slide 17 · 15 · Deliverables
+
+### Onze deliverables zijn ook input voor AI
+
+* We schreven onze deliverables voor mensen, maar nu **ook voor AI**
+* De kennis moet **expliciet** zijn, een stockfoto in een persona draagt niets over
+* Dat vraagt onderhoud, en we meten het aan **wat er mee gemaakt wordt**
+
+---
+
+## Slide 18 · 16 · Rol
+
+### Je bent niet meer de enige maker
+
+* **Loslaten dat wij de enige makers zijn**; wij bewaken de kwaliteit voor het hele team
+* Vlot wisselen: in Discovery **stuur** je de AI, in Delivery **bewaak** je de AI
+* Het oordeel leunt op **ervaring**, dus junioren hebben ruimte nodig om die op te bouwen
+
+---
+
+## Slide 19 · 17 · Afronding
+
+### We laten het maken los, niet de kwaliteit
+
+**Loslaten**
+
+* Hi-fi-schermen als hoofdresultaat
+* Zware overdrachten
+* Eén proces voor alles
+
+**Bewaken**
+
+* Meerdere richtingen
+* De kwaliteitslat
+* Onderbouwde besluiten
+* Menselijke verantwoordelijkheid
+
+---
+
+## Slide 20 · 18 · Oordeel
+
+### Oordeel wordt de kracht
+
+* Naarmate uitvoering inwisselbaar wordt, wordt ons **oordeel de kracht**
+* Bescherm waar originele ideeën ontstaan, laat AI de rest versnellen
+* Mijn doel: **sneller beslissen** wat de moeite waard is om te maken
+
+---
+
+## Slide 21 · finale
+
+### De mens beslist, AI versnelt de rest
+
+* Bij de start kiezen we de route
+* In Discovery **stuur** jij de AI
+* In Delivery **bewaak** jij de AI
+* De mens blijft verantwoordelijk
+
+Think First, Ship Fast
