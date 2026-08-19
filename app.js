@@ -173,7 +173,7 @@
     apply();
   })();
 
-  /* ================= DRAWER: UX-strategie ================= */
+  /* ================= DRAWER: strategie ================= */
   (function(){
     var drawer=$('stratPanel'), bd=$('stratBackdrop'), closeBtn=$('stratClose');
     if(!drawer) return;
@@ -215,8 +215,8 @@
 
     /* markdown-export strategie-template */
     var MD = [
-'# UX-strategiesjabloon','',
-'De UX-strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen. Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4\'s. Het schrijven ervan is zelf Discovery-werk, geen formulier dat je even invult. Jij bepaalt de richting, AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig, anders ontstaat al snel precies de generieke richting die dit model moet voorkomen. De strategie is zelf ook zo\'n contextbestand: je schrijft haar voor het team en voor de AI-tools waarmee we bouwen.','',
+'# Strategietemplate','',
+'De strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen. Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4\'s. Het schrijven ervan is zelf Discovery-werk, geen formulier dat je even invult. Jij bepaalt de richting, AI kan helpen bij het ordenen en aanscherpen, maar schrijft de strategie niet zelfstandig, anders ontstaat al snel precies de generieke richting die dit model moet voorkomen. De strategie is zelf ook zo\'n contextbestand: je schrijft haar voor het team en voor de AI-tools waarmee we bouwen.','',
 '## Visie',
 '_Beschrijf in twee of drie zinnen wat een goede ervaring voor de gebruiker betekent en welke richting je kiest. Vermijd vage doelen zoals "een betere UX". Formuleer een standpunt dat over een jaar nog steeds bruikbaar is._','',
 '[Vul de visie in]','',
@@ -257,7 +257,7 @@
 
     function bindStrat(copyBtn, dlBtn){
       copyBtn&&copyBtn.addEventListener('click', function(){ copyText(MD, 'strategie gekopieerd ✓'); });
-      dlBtn&&dlBtn.addEventListener('click', function(){ downloadFile(MD, 'ux-strategie-template.md', 'text/markdown'); });
+      dlBtn&&dlBtn.addEventListener('click', function(){ downloadFile(MD, 'strategie-template.md', 'text/markdown'); });
     }
     bindStrat($('stratCopy'), $('stratDownload'));
     bindStrat($('stratCopyB'), $('stratDownloadB'));

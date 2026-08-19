@@ -1,6 +1,6 @@
 # Think First, Ship Fast
 
-*Ons werkmodel voor productontwikkeling met AI. Deel 1 beschrijft de triage. Deel 2 bevat het UX-strategiesjabloon dat de triage onderbouwt en AI van de juiste context voorziet.*
+*Ons werkmodel voor productontwikkeling met AI. Deel 1 beschrijft de triage. Deel 2 bevat de strategietemplate die de triage onderbouwt en AI van de juiste context voorziet.*
 
 ## Waarom dit model
 
@@ -104,7 +104,7 @@ Delivery ligt voor de hand als:
 
 Deze signalen vormen geen automatische scorekaart. Meerdere signalen versterken de reden voor Discovery. Eén groot veiligheidsrisico of één moeilijk herstelbaar gevolg kan al voldoende zijn.
 
-We onderbouwen de triage met een korte UX-strategie. Die beschrijft wat goed is voor onze gebruikers en bevat principes waaraan we beslissingen toetsen.
+We onderbouwen de triage met een korte strategie. Die beschrijft wat goed is voor onze gebruikers en bevat principes waaraan we beslissingen toetsen.
 
 Zo gebruikt het hele team dezelfde meetlat. Ook ‘alleen Delivery’ of ‘dit bouwen we niet’ wordt daarmee een uitlegbare keuze.
 
@@ -293,9 +293,9 @@ Twee werkwijzen zijn hierbij belangrijk:
 
 Dit werkt alleen als de organisatie meebeweegt. Als we op een nieuwe manier werken maar op oude resultaten worden beoordeeld, blijven losse initiatieven ontstaan. Beoordeel teams daarom op kwaliteit, onderbouwde keuzes, leervermogen en gebruikersresultaten, niet op het aantal schermen of documenten.
 
-## Deel 2: het UX-strategiesjabloon
+## Deel 2: de strategietemplate
 
-*De UX-strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen.*
+*De strategie is de meetlat voor de triage. Ze helpt kiezen tussen Discovery en Delivery en geeft AI de context om passende voorstellen te doen.*
 
 Vul ieder onderdeel in en verwijder daarna de cursieve uitleg. Houd de strategie kort, bij voorkeur één tot twee A4’s.
 

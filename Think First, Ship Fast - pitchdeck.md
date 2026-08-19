@@ -122,7 +122,7 @@
 
 ---
 
-## Slide 7: de UX-strategie is de meetlat
+## Slide 7: de strategie is de meetlat
 
 **Op de slide**
 
@@ -132,7 +132,7 @@
 
 **Spreeknotities**
 
-- De triage rust niet op gevoel alleen, een korte UX-strategie beschrijft wat een goede ervaring is.
+- De triage rust niet op gevoel alleen, een korte strategie beschrijft wat een goede ervaring is.
 - De principes zijn het hart, bijvoorbeeld dat een ouder altijd begrijpt wat er hierna gebeurt.
 - Zo'n regel helpt bij een betaalherinnering, een inschrijving en een AI-vertaling.
 - Het standpunt schrijven we zelf, AI ordent bronnen en scherpt formuleringen aan.
@@ -325,7 +325,7 @@
 ## Keuzes voor de uitwerking
 
 * Gebruik op slide 11 het schema `triagemodel_werkstructuur.svg` als hoofdbeeld.
-* Geef de volledige UX-strategie mee als hand-out. Zet de hele template niet in het deck.
+* Geef de volledige strategie mee als hand-out. Zet de hele template niet in het deck.
 * Laat context switching buiten deze pitch. Houd tijdens de pilot wel bij of Discovery en Delivery apart gepland moeten worden.
 * Vul vóór de pitch je naam, datum en de drie voorgestelde pilotprojecten in.
 

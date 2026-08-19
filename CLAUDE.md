@@ -10,7 +10,7 @@ Afgeronde, verbeterde versie van de oorspronkelijke Claude-artifact. Klikbaar pr
 
 ## Bron van waarheid · synchronisatie
 De **canonieke tekst** van dit model staat in:
-`/Users/jordytiedink/Documents/Cowork OS/06 UX/Think First, Ship Fast.md`
+`/Users/jordytiedink/Documents/Cowork OS/UX/Think First, Ship Fast.md`
 
 Die md is leidend voor de *inhoud* van de one-pager. Als Jordy zegt dat de md is **vernieuwd / bijgewerkt** (of vraagt om te synchroniseren), lees dat bestand opnieuw en werk de tekst van de one-pager bij zodat die de md volgt:
 - Tekst in `index.html` (alinea's, tells, lijsten, kwaliteitslat-kaarten, drawer-template).
