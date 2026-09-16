@@ -108,6 +108,12 @@ We onderbouwen de triage met een korte strategie. Die beschrijft wat goed is voo
 
 Zo gebruikt het hele team dezelfde meetlat. Ook ‘alleen Delivery’ of ‘dit bouwen we niet’ wordt daarmee een uitlegbare keuze.
 
+### De route door de drie fasen
+
+Het model kent drie fasen, namelijk Discovery & strategie, Experience design en Engineering & infrastructuur. Ze overlappen elkaar, en in de overlap van de laatste twee ontstaat het codeprototype.
+
+De triage kiest de route door die fasen heen. De Discovery-route loopt door alle drie. De Delivery-route slaat de eerste over en begint bij het bouwen. Beide routes komen samen bij de kwaliteitslat en eindigen bij de Outcome.
+
 ### Discovery: de volledige double diamond
 
 Discovery volgt de volledige double diamond als de onzekerheid, impact of kans op onderscheid daarom vraagt. We verkennen eerst breed en kiezen daarna bewust een richting.
